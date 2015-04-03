@@ -1,0 +1,471 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]HA[4]KM[0.50]
+PW[jrhoak]PB[patrick.lacz]WR[1k]BR[10k]DT[2015-01-15]CP[online-go.com]GC[{
+  "authors": ["Josh Hoak"\],
+  "publisher": "GPub",
+  "title": "Patrick v. Josh: Game 1",
+  "subtitle": ""
+}]PC[OGS: http://online-go.com/game/1380543]AB[dd][pd][dp][pp]RE[W+Resign]
+;W[nc]C[## Four Stones and a Big Fight
+### A Peaceful Opening
+
+Kashomon [1k\]: This is a handicap game I played with a friend.  I don't think I played particularly well, but I'd like feedback for both sides, since I'm going to send him the feedback when we're done.
+
+Younggil [8p\]: I see. That's a good idea.]
+;B[qf]
+(;W[pb]
+;B[qc]
+;W[fc]
+;B[cf]
+;W[dc]
+;B[cc]
+;W[cb]
+;B[cd]LB[db:A]
+(;W[db]
+(;B[jp]LB[db:A]C[Younggil [8p\]: There's a better move instead of White 11. Do you see it?]
+;W[cn]
+;B[fq]
+(;W[bp]
+;B[cm]
+;W[dm]
+;B[cl]
+;W[dn]
+;B[dj]
+;W[cq]
+;B[pn]
+(;W[pq]C[Younggil [8p\]: Normally, taking the corner like this isn't a very good idea
+]
+;B[oq]
+;W[or]
+;B[op]
+;W[pr]
+;B[nr]
+;W[qp]
+;B[qo]
+;W[rp]
+;B[mq]
+(;W[hq]C[Younggil [8p\]: So far so good for both, but White 33 is maybe a bit too deep.
+]
+(;B[ro]
+;W[rr]
+;B[gp]
+(;W[hp]
+;B[ho]
+;W[fr]
+;B[er]
+;W[io]
+;B[ip]
+;W[go]
+;B[hn]
+;W[kp]C[### A Tricky Move
+
+Younggil [8p\]: Wow, interesting. This move (White 45) is a nice tricky move and it seems to be successful in the game.
+]
+(;B[ir]
+;W[hr]
+(;B[kr]
+;W[fp]
+;B[gn]
+;W[fo]C[Younggil [8p\]: This was a very good result for White.]
+;B[me]
+;W[jo]
+;B[kq]
+;W[pj]
+(;B[ql]LB[mj:B]C[### The Invasion
+
+Younggil [8p\]: Black 56 is too small.  If you played  for Black, where would you play next?
+
+Kashomon [1k\]: I might try B.
+
+]
+(;W[qh]
+;B[rj]
+;W[rk]
+;B[qk]
+;W[qj]
+;B[ri]
+;W[rh]
+;B[oh]
+;W[rl]C[Kashomon [1k\]: This turned out pretty well for Black...]
+;B[rm]
+;W[qi]
+;B[sl]
+;W[nj]
+(;B[mh]
+;W[lj]
+;B[jj]
+;W[ml]
+;B[oi]
+;W[pk]
+;B[oj]
+;W[pl]
+;B[qm]
+;W[ok]
+;B[om]
+;W[km]C[### White Escapes
+
+Younggil [8p\]: Black's way of attack was too direct and it helped White.
+]
+;B[ln]
+;W[jl]
+;B[im]
+;W[kn]
+;B[lo]
+;W[il]C[Younggil [8p\]: Now, if White lives, which is easy, the game will be very hard for Black to catch up.
+]
+;B[hl]
+;W[hk]
+;B[gl]
+;W[dl]
+;B[dk]
+;W[gk]
+;B[fn]
+;W[eo]
+;B[el]
+;W[ld]C[Younggil [8p\]: Wow, White could even play at 97.
+]
+;B[kj]
+;W[li]
+;B[jg]
+;W[ik]
+;B[nl]
+;W[nk]
+;B[mm]
+;W[ll]
+;B[kh]
+(;W[hh]C[Kashomon [1k\]: Oops, this was a mistake.]
+;B[kk]
+;W[lm]
+;B[fi]
+;W[ih]
+;B[jh]
+;W[lh]
+;B[lg]
+;W[hf]
+;B[mi]
+;W[mj]
+;B[lk]
+;W[mk]
+;B[gh]
+;W[hi]
+;B[if]
+;W[gg]
+;B[fg]
+;W[ff]
+;B[gd]
+;W[eg]
+;B[fh]
+;W[ed]
+;B[ee]
+;W[fe]
+;B[fd]
+;W[ec]
+;B[ef]
+;W[he]
+;B[jd]
+(;W[je]
+;B[ie]
+;W[hd]
+;B[md]C[Kashomon [1k\]: Black got a bunch of points this way
+]
+;W[mc]
+;B[jc]
+;W[le]
+;B[lf]
+;W[ke]
+;B[id]
+;W[oe]
+;B[od]
+;W[nd]
+;B[ne]
+;W[of]
+(;B[pg]
+;W[mf]C[### The End
+
+Younggil [8p\]: Now, the game's over
+
+Kashomon [1k\]: Hm. I thought it was pretty close, no? Well... I thought it was close until I found that I could cut at C9.
+
+Younggil [8p\]: It's close, but since it's 4 stones handicap, White is generally winning now.
+
+Kashomon [1k\]: I see
+
+Younggil [8p\]: If White loses 5 points, white can still win.
+]
+;B[mg]
+;W[nf]
+;B[hb]
+;W[gb]
+;B[qb]
+;W[kf]
+;B[kg]
+;W[pc]
+;B[rf]
+;W[ek]
+;B[fk]
+;W[ej]
+;B[ei]
+;W[ck]
+;B[cj]
+;W[bk]
+;B[bj]
+;W[bm]
+;B[ak]
+;W[bl]
+;B[hc]
+;W[gc]
+;B[bb]
+;W[ba]
+;B[pa]
+;W[pe]
+;B[qe]
+;W[oa]
+;B[qa]
+;W[bc]
+;B[bd]
+;W[ab]
+;B[lb]
+;W[oc]
+;B[ko]
+;W[qd]
+;B[rd]
+;W[ad]
+;B[ae]
+;W[be]
+;B[ac]
+;W[de]
+;B[df]
+;W[ad]
+;B[ig]
+;W[hg]
+;B[ac]
+;W[jq]
+;B[iq]
+;W[ad]
+;B[jm]
+;W[kl]
+;B[ac]
+;W[mn]
+;B[nm]
+;W[ad]
+;B[ge]
+;W[gf]
+;B[ac]
+;W[lp]
+;B[mo]
+;W[ad]
+;B[ij]
+;W[gj]
+;B[ac]
+;W[mp]
+;B[no]
+;W[ad]
+;B[en]
+;W[do]
+;B[ac]
+;W[is]
+;B[jr]
+;W[ad]
+;B[gr]
+;W[gq]
+;B[ce]
+;W[af]
+;B[bg]
+;W[fj]
+;B[jn]
+;W[mb]
+;B[kc]
+;W[fl]
+;B[ag]
+;W[ac]
+;B[em]
+;W[ma]
+;B[ga]
+;W[fa]
+;B[ha]
+;W[la]
+;B[ka]
+;W[lc]
+;B[kb]
+;W[si]
+;B[sk]
+;W[sg]
+;B[pd]
+;W[sf]C[White wins by resignation.])
+(;B[ng]
+;W[qb]
+;B[rb]
+;W[kb]
+;B[jb]
+;W[lb]
+;B[qa]C[Younggil [8p\]: This would have been complicated
+
+Kashomon [1k\]: Yeah
+]
+;W[oc]
+;B[nb]
+;W[nf]
+;B[mf]
+;W[pg]
+;B[rd]
+;W[pa]C[Younggil [8p\]: But probably White will still win
+]))
+(;W[hd]
+;B[jc]
+;W[qb]
+;B[rb]
+;W[kb]
+;B[jb]
+;W[kc]C[Younggil [8p\]: This would be easier to live
+
+Kashomon [1k\]: yeah
+]))
+(;W[kk]C[Younggil [8p\]: This would be better :)]))
+(;B[lj]
+;W[mi]
+;B[kh]C[Younggil [8p\]: This way would be better
+]
+;W[ol]
+;B[ml]
+;W[mg]
+;B[ld]C[Younggil [8p\]: Like this is more natural.
+]
+;W[og]
+;B[lb]C[Younggil [8p\]: Black can enlarge the top right and the center and the game will still be alright
+]))
+(;W[pg]LB[ql:A]C[Younggil [8p\]: After A, White could play this sort of shoulder hit.]
+(;B[pf]
+;W[mj]C[Younggil [8p\]: White can also jump out to reduce Black's influence.
+
+Kashomon [1k\]: That's slick])
+(;B[mj]
+;W[pf]
+;B[pe]
+;W[qg]
+;B[rf]
+;W[mg]C[Younggil [8p\]: White can make a nice shape if Black tenukis, so normally Black answers.])))
+(;B[nj]C[Younggil [8p\]: Capping is a good idea because the center is more important and big.
+
+Kashomon [1k\]: It seems hard for W to get a base.
+]
+;W[qg]
+;B[pg]
+;W[qh]
+;B[rf]
+;W[ph]
+;B[og]
+;W[ql]
+;B[lc]C[Younggil [8p\]: Even if White can live, Black can attack the top right, and Black's still alright
+])
+(;B[lc]
+;W[nj]C[If Black plays elsewhere...]
+(;B[jc]C[Kashomon [1k\]: Is White dead?
+
+Younggil [8p\]: Not yet. There is still some aji.])
+(;B[mc]C[Younggil [8p\]: Black can kill them with this, but it's too passive])
+(;B[ok]
+;W[oj]
+;B[lj]C[Younggil [8p\]: This is still possible.]))
+(;B[mj]C[Younggil [8p\]: I would maybe play here for Black.]))
+(;B[fo]C[Younggil [8p\]: Black should take care of this group first.
+]
+;W[iq]
+;B[jq]
+;W[jr]
+;B[kq]C[Younggil [8p\]: and Black's still fine
+]))
+(;B[jq]C[Kashomon [1k\]: How should Black respond?
+
+Younggil [8p\]: Maybe here. It's hard for White to fight because there are a lot of Black stones here.]))
+(;W[jq]
+(;B[kq]
+;W[ip]
+;B[jr]
+;W[ir]C[Younggil [8p\]: This is another option for white])
+(;B[ip]
+;W[kq]
+;B[kp]
+;W[gr]
+;B[fr]
+;W[lr]LB[ir:A]C[Younggil [8p\]:  White can try to live inside like this
+
+Kashomon [1k\]: won't A kill?
+]
+;B[ir]
+;W[iq]C[Younggil [8p\]: Black's outside isn't strong enough
+]
+;B[jr]
+;W[ls]
+;B[ns]
+;W[js]C[Younggil [8p\]: White will play like this
+]
+;B[hr]
+;W[gq]
+;B[gs]
+;W[hs]
+;B[is]
+;W[kr]
+;B[ks]
+;W[hp]
+;B[ho]
+;W[fp]
+;B[go]
+;W[eq]C[Younggil [8p\]: Black will be in trouble
+])))
+(;B[rr]C[Younggil [8p\]: Black should play here first
+]
+;W[rq]
+;B[ro]
+;W[sr]C[Younggil [8p\]: White needs to come back here.]))
+(;W[ne]C[Younggil [8p\]: this sort of move would be fine
+]
+;B[ng]
+;W[pg]
+;B[qg]
+;W[pi]C[Younggil [8p\]: A possible continuation.
+]))
+(;W[qj]C[Younggil [8p\]: Something like this would be better than invading the corner.
+]
+;B[ql]
+;W[ne]
+;B[qb]
+;W[hq]
+;B[hp]
+;W[ip]
+;B[io]
+;W[iq]
+;B[gp]
+;W[jq]
+;B[kp]
+;W[lq]C[Younggil [8p\]: White can still aim for the side later.
+]))
+(;W[dj]C[Younggil [8p\]: This is another way to play]
+;B[ch]
+;W[qn]
+;B[nq]
+;W[qh]
+;B[qb]
+;W[ne]C[Younggil [8p\]: This is a good idea -- it's easier for White to play this way.
+
+Kashomon [1k\]: So big extensions?
+
+Younggil [8p\]: Yes
+
+]
+;B[kd]
+;W[id]C[Younggil [8p\]: Black might have a hard time invading because he'll worry about his stone.]))
+(;B[gd]C[Younggil [8p\]: Black can play this to keep White low.]
+;W[ic]
+;B[gc]LB[eb:A][ic:B]C[Younggil [8p\]: If you had played at A, the jump at 2 would be fine, but not now...]))
+(;W[eb]C[Younggil [8p\]: This is nearly always better.]
+;B[gd]
+;W[ic]C[Younggil [8p\]: white's connected
+]))
+(;W[fc]
+;B[cf]
+;W[jd]C[Younggil [8p\]: This is more common. I play like this in 4-stone handicap games
+
+Kashomon [1k\]: I know this variation, but it seems a little boring =)
+
+Younggil [8p\]: ok :)
+]))
