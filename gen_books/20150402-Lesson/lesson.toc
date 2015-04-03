@@ -1,0 +1,7 @@
+\contentsline {chapter}{Contents}{2}
+\contentsline {part}{\partnumberline {I}David (Black) vs Josh (White)}{3}
+\contentsline {chapter}{\chapternumberline {1}Introduction}{5}
+\contentsline {chapter}{\chapternumberline {2}Beginning with the Magic Sword}{7}
+\contentsline {chapter}{\chapternumberline {3}Black Begins a Fight}{13}
+\contentsline {part}{\partnumberline {II}Jared (Black) vs Josh (White)}{31}
+\contentsline {chapter}{\chapternumberline {4}Introduction}{33}

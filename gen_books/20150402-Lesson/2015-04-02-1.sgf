@@ -1,0 +1,320 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]
+PW[jrhoak]PB[autumnleaves]WR[1k]BR[5d]DT[2015-02-26]CP[online-go.com]GC[{
+  "authors": ["Josh Hoak"\],
+  "title" : "Weekly Lesson with Younggil",
+  "subtitle" : "2 April 2015",
+  "publisher" : "" 
+}]PC[OGS: http://online-go.com/game/1613531]C[## David (Black) vs Josh (White)
+### Introduction
+
+Kashomon [1k\]: This was a game I played with David Ormerod on KGS. I've mostly been taking Black + no-komi, but I played White in this game to switch it up.
+]RE[B+Resign]
+;B[qd]
+;W[dc]
+;B[pq]
+;W[dp]
+;B[de]
+(;W[dh]
+;B[gd]
+;W[ee]
+;B[ef]
+;W[fe]
+;B[cc]
+;W[fc]
+(;B[dd]
+(;W[db]C[### Beginning with the Magic Sword
+
+Younggil [8p\]: So, do you prefer this to E17?
+
+Kashomon [1k\]: I don't know! I haven't played this particular Joseki.
+
+Younggil [8p\]: This move is getting less popular, because people think that it's not good.  In this variation, White's top is weaker.]
+;B[cf]
+(;W[kd]
+;B[cb]
+;W[oc]C[Younggil [8p\]: This approach is very big, so the opening is still ok for White.]
+;B[gc]LB[db:A]C[### Black Begins a Fight
+
+Kashomon [1k\]: G17 is a nice counter
+
+Younggil [8p\]: Because White played at A, G17 is good and the hane at F18 is sente.
+]
+(;W[ge]
+;B[fb]
+;W[ec]
+;B[he]
+;W[hf]
+;B[je]
+;W[ie]
+;B[jd]
+;W[hd]
+;B[hc]
+;W[kc]
+;B[jc]C[Younggil [8p\]: So what did you feel about the result so far?
+
+Kashomon [1k\]: I think it's a little better for black.
+
+Younggil [8p\]: Then what was problem?
+
+Kashomon [1k\]: Both Black's groups are pretty safe and White is weak.
+
+Younggil [8p\]: yea
+]
+(;W[oe]C[Younggil [8p\]: The game seems to be slightly better for Black, but still alright.
+]
+;B[pf]C[Kashomon [1k\]: I hadn't thought about that
+Kashomon [1k\]: probably White needs to respond here
+Younggil [8p\]: because, White's top is still not solid enough
+Younggil [8p\]: yea
+Younggil [8p\]: so here, 
+Kashomon [1k\]: that you intend to have cut
+Younggil [8p\]: if you were black, where you wouldn't want White to play?
+Younggil [8p\]: yes right
+Younggil [8p\]: or double hane
+Kashomon [1k\]: I guess
+Kashomon [1k\]: If I were black O would worry about R13
+Kashomon [1k\]: *I
+Kashomon [1k\]: but maybe that's too low
+Kashomon [1k\]: err
+Kashomon [1k\]: R12
+]
+(;W[po]C[Younggil [8p\]: anyway
+]
+;B[pc]
+;W[ob]
+;B[pk]C[Kashomon [1k\]: and maybe Q5
+]
+;W[np]LB[dh:C][pk:A]C[Kashomon [1k\]: this was a msitake
+Younggil [8p\]: this knight's move seems to be alright
+Kashomon [1k\]: White 37 is where things felt like they started to go bad
+Younggil [8p\]: i see
+Younggil [8p\]: but since the pincer is loose at A, White can play more strongly here
+Kashomon [1k\]: Because Black launched an attack on my top left stones
+Kashomon [1k\]: hm
+Younggil [8p\]: you mean B?
+Younggil [8p\]: C?
+Younggil [8p\]: or the big group from the top left?
+Kashomon [1k\]: the big group
+Younggil [8p\]: i see
+Younggil [8p\]: they're still ok
+Younggil [8p\]: the center is open :)
+]
+;B[me]C[Kashomon [1k\]: I think
+Kashomon [1k\]: O4
+]
+;W[mc]
+;B[ke]
+(;W[ne]C[Younggil [8p\]: probably this move was questionable
+]
+;B[eh]
+;W[di]
+;B[ei]C[autumnleaves: yay for grinding style...
+autumnleaves: I always feel guilty when I push from behind like this
+jrhoak: and me, on the forth line ha
+autumnleaves: :)
+]
+;W[dk]
+;B[kb]
+;W[mf]
+;B[dj]
+;W[cj]
+;B[ej]
+;W[cl]
+;B[ci]
+;W[ch]
+;B[bi]C[autumnleaves: hmm, the conditional moves have inverted their colors :/
+autumnleaves: and can't be deleted
+autumnleaves: hope it doesn't play something bogus :)
+]
+;W[bh]
+;B[bj]
+;W[ck]
+;B[dg]
+;W[bk]
+;B[ig]C[Younggil [8p\]: now, White's big group is under attack
+]
+;W[gh]C[Kashomon [1k\]: yea
+]
+;B[hi]
+;W[gi]
+;B[gj]
+;W[ih]
+;B[hh]
+;W[hg]
+;B[ii]
+;W[jh]
+;B[jg]C[jrhoak: no way out here
+jrhoak: must have examined 30 variations
+autumnleaves: maybe later we can review together if you want to
+Younggil [8p\]: hmm
+Kashomon [1k\]: I couldn't figure out how to escape
+Younggil [8p\]: yea
+Kashomon [1k\]: I looked at maybe 30 variations
+Younggil [8p\]: not easy now
+Kashomon [1k\]: and so I resigned
+Younggil [8p\]: oh,
+Younggil [8p\]: the game was suddenly finished
+Kashomon [1k\]: yup
+])
+(;W[eg]C[Kashomon [1k\]: ah
+Younggil [8p\]: if you want, you can come back here
+Younggil [8p\]: and it's better connection (no cutting point)
+]
+(;B[nd]
+;W[od]C[Younggil [8p\]: the top group is already safe
+Younggil [8p\]: and Black can't attack. because white can simply jump at R18
+])
+(;B[oo]
+;W[op]
+;B[pp]
+;W[qo]
+;B[on]
+;W[rq]
+;B[nr]
+;W[mq]C[Younggil [8p\]: the game would still be alright
+Younggil [8p\]: Black is slightly better
+Kashomon [1k\]: yea
+Kashomon [1k\]: but still reasonable
+Younggil [8p\]: because he has more territory, but still playable
+Younggil [8p\]: right
+])))
+(;W[qb]C[Kashomon [1k\]: I would like to have played f13 
+])
+(;W[fg]C[Younggil [8p\]: here?
+Kashomon [1k\]: yes
+Younggil [8p\]: hmm
+Younggil [8p\]: this is good connection, but not a nice shape
+]
+;B[dj]C[Younggil [8p\]: because it's still thin
+]
+;W[fi]C[Kashomon [1k\]: hm
+])
+(;W[ph]
+;B[pc]
+;W[ob]
+;B[of]
+;W[nf]C[Younggil [8p\]: white could keep on playing like this
+Kashomon [1k\]: I have a hard time with those incers
+Kashomon [1k\]: *pincers
+Younggil [8p\]: and if Black keeps answering, White's top will become stronger
+Younggil [8p\]: yea
+Younggil [8p\]: but this is more active and give Black pressure
+]
+;B[ng]
+;W[og]
+;B[ne]
+;W[mf]
+;B[od]
+;W[nd]
+;B[pe]
+;W[me]C[Younggil [8p\]: like this
+Kashomon [1k\]: nice tesuji
+Younggil [8p\]: yea
+])
+(;W[qh]C[Younggil [8p\]: that's also possible
+]
+;B[pc]
+;W[ob]
+;B[of]
+;W[qk]C[Younggil [8p\]: like this
+]))
+(;W[pe]
+;B[qe]
+;W[pf]
+;B[qg]
+;W[po]C[Younggil [8p\]: Maybe like this?
+
+Kashomon [1k\]: Looks better
+])
+(;W[pg]
+;B[pe]
+;W[md]
+;B[pc]
+;W[ob]C[Younggil [8p\]: Or this is also possible
+]
+;B[qo]
+;W[jb]
+;B[ib]
+;W[kb]
+;B[jg]
+;W[ih]C[Younggil [8p\]: now, Black has only one eye, so White can keep chasing
+
+Younggil [8p\]: White's top is already safe, and White doesn't need to play at F13 later.
+]))
+(;W[ff]C[Younggil [8p\]: then how about pushing here?
+
+Kashomon [1k\]: Looks like it hurts the D12 stone...
+]
+;B[eg]
+;W[ie]
+;B[fb]
+;W[ec]
+;B[ic]
+(;W[fg]
+;B[eh]
+;W[jb]C[Kashomon [1k\]: But maybe it's worth it!
+
+Younggil [8p\]: Yes, but White can play strongly like this.
+
+Kashomon [1k\]: Why one more push?
+]
+;B[hf]
+;W[he]
+;B[ge]
+;W[gf]
+;B[hg]
+;W[fh]C[Younggil [8p\]: Now, White is fine.])
+(;W[jb]
+;B[hf]
+;W[he]
+;B[ge]
+;W[gf]
+;B[if]
+;W[je]
+;B[gh]C[Younggil [8p\]: White pushes one more because of this.
+
+Kashomon [1k\]: Ah.
+])))
+(;W[cb]C[Younggil [8p\]: Normally, turn here first, but the actual game was also ok
+]))
+(;W[ec]
+;B[ff]
+;W[ge]
+;B[bd]
+;W[od]C[Younggil [8p\]: This is a standard variation.]))
+(;B[db]C[Younggil [8p\]: Do you know about this variation? Would you show me?
+
+Kashomon [1k\]: Let's see...
+]
+;W[df]
+;B[ce]
+;W[eb]C[Younggil [8p\]: Good so far. And?
+
+Kashomon [1k\]: hmm
+]
+(;B[dg]C[Kashomon [1k\]: this?
+
+Younggil [8p\]: Not quite
+])
+(;B[dd]
+;W[ec]
+;B[dg]
+;W[eh]C[Younggil [8p\]: This is common
+]
+(;B[kc]C[Younggil [8p\]: This is a possible follow-up.])
+(;B[nc]C[Younggil [8p\]: This is also possible. This is quite popular recently, so you'd better know this main variation :)
+
+Kashomon [1k\]: This doesn't seem like a great result for White.
+
+Younggil [8p\]: Because black has sente and the corner as well?
+
+Kashomon [1k\]: Well, the stones in the top left can be separated with F14.
+
+Younggil [8p\]: I see
+
+Kashomon [1k\]: And then Black still has the opportunity to play around R10
+
+Younggil [8p\]: Right. In this game, yes. But there's no good alternative after Black's hane at D18.]))))
+(;W[od]C[Younggil [8p\]: If you don't like the opening in the game, you can also approach here. That's another game.
+]))
