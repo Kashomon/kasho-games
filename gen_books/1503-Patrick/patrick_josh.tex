@@ -2,6 +2,7 @@
 \usepackage{color}
 \usepackage{wrapfig}
 \usepackage{setspace}
+\usepackage{graphicx}
 \usepackage[margin=1in]{geometry}
 %% Define any extra packages %%
 \usepackage{gnos}
@@ -25,15 +26,15 @@
  \stepcounter{GoVariation}
  \centerline{\textit{Variation.\thinspace\arabic{GoVariation}}}
 }
-\newcommand{\subtext}[1]{\centerline{\textit{#1}}}
 
+\newcommand{\subtext}[1]{\centerline{\textit{#1}}}
 
 %% Define the main title %%
 \definecolor{light-gray}{gray}{0.55}
 \newcommand*{\mainBookTitle}{\begingroup
   \raggedleft
      {\Large Josh Hoak } \\
-     \vspace*{5 em}
+     \vspace*{1 em}
   \vspace*{5 em}
   {\textcolor{light-gray}{\Huge Patrick v. Josh: Game 1 }}\\
   \vspace*{\baselineskip}
@@ -41,22 +42,28 @@
   {\Large GPub }\par
   \vspace*{2\baselineskip}
 \endgroup}
-
-\begin{document}
-
-\pagestyle{empty}
-\mainBookTitle
-\newpage
-\tableofcontents
-
-\chapterstyle{section}
+ %% Chapter settings %%
+\chapterstyle{madsen}
 \pagestyle{companion}
+\openany
 \makepagestyle{headings}
-\renewcommand{\printchapternum}{\space}
 \makeevenhead{headings}{\thepage}{}{\slshape\leftmark}
 \makeoddhead{headings}{\slshape\rightmark}{}{\thepage}
 
+\begin{document}
+%% The Frontmatter. %%
+\begin{titlingpage}
+\mainBookTitle
+\end{titlingpage}
+\frontmatter*
+
+
+\newpage
+\tableofcontents
+
+
 %% The content. %%
+\mainmatter
 \part{Four Stones and a Big Fight}
 \chapter{A Peaceful Opening}
 {\centering
@@ -125,7 +132,7 @@ Younggil [8p]: I see. That's a good idea.
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \setlength{\parskip}{0.5em}
-Younggil [8p]: There's a better move instead of White 11. Do you see it?
+Younggil [8p]: There's a better move instead of {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{11}}}}. Do you see it?
 
 
 \end{minipage}
@@ -557,7 +564,7 @@ Younggil [8p]: White can still aim for the side later.
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \setlength{\parskip}{0.5em}
-Younggil [8p]: So far so good for both, but White 33 is maybe a bit too deep.
+Younggil [8p]: So far so good for both, but {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{33}}}} is maybe a bit too deep.
 
 
 \end{minipage}
@@ -661,7 +668,7 @@ Younggil [8p]: A possible continuation.
 
 \subtext{(Moves: 34-45)}
 
-Younggil [8p]: Wow, interesting. This move (White 45) is a nice tricky move and it seems to be successful in the game.
+Younggil [8p]: Wow, interesting. This move ({\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{45}}}}) is a nice tricky move and it seems to be successful in the game.
 
 
 \vfill
@@ -1085,7 +1092,7 @@ Younggil [8p]: and Black's still fine
 
 \subtext{(Moves: 52-56)}
 
-Younggil [8p]: Black 56 is too small.  If you played  for Black, where would you play next?
+Younggil [8p]: {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}56}}}} is too small.  If you played  for Black, where would you play next?
 
 Kashomon [1k]: I might try B.
 
@@ -1985,7 +1992,9 @@ Younggil [8p]: But probably White will still win
 
 \subtext{(Moves: 214-253)}
 
-\subtext{Black 18 at a, White 21 at 15, Black 24 at a, White 27 at 15, White 39 at a.}
+\subtext{{\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}18}}}} at a, {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{21}}}} at 15, {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}24}}}} at a}
+
+\subtext{{\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{27}}}} at 15, {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{39}}}} at a.}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \setlength{\parskip}{0.5em}

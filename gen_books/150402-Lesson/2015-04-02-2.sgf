@@ -1,0 +1,319 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]
+PW[jrhoak]PB[jarstar]WR[1k]BR[1k]DT[2015-01-14]CP[online-go.com]PC[OGS: http://online-go.com/game/1373244]C[## Jared (Black) vs Josh (White)
+### Introduction
+
+Kashomon [1k\]: This is another game I played with my friend Jared. I'm going to write up the feedback and send it to him like I did for the game with Patrick.
+
+Younggil [8p\]: Ok, good.]RE[W+Resign]
+;B[pd]
+;W[dc]
+;B[qp]
+;W[dq]
+;B[co]
+;W[dl]
+(;B[pj]C[### A Chinese-Variant
+
+Kashomon [1k\]: Seems like weird shape here.
+
+Younggil [8p\]: Yea, this isn't common.
+]
+;W[nq]
+;B[gq]
+;W[do]
+;B[kp]
+;W[qq]
+;B[pq]
+;W[pp]
+;B[qr]
+;W[rq]
+;B[op]
+;W[po]
+;B[oq]
+;W[rr]
+;B[dp]
+;W[ep]
+;B[cp]
+(;W[eo]
+;B[cq]C[Younggil [8p\]: This was too easy on Black.
+
+Kashomon [1k\]: Yeah, I thought so too.
+
+Younggil [8p\]: So if White blocks at 3-3, that'd be better than this.
+]
+(;W[eq]
+(;B[pm]
+;W[oo]
+;B[np]
+;W[iq]
+(;B[jr]C[Younggil [8p\]: Oh, good time to invade.
+
+Kashomon [1k\]: Was Black's response a mistake here?
+
+Younggil [8p\]: It was alright. I can't say this is a mistake. Depends on how Black plays
+]
+;W[nc]
+;B[qf]
+(;W[kd]C[Younggil [8p\]: Good. The opening is slightly better for White
+]
+(;B[df]
+;W[ce]
+;B[de]
+;W[cf]
+;B[ic]LB[dd:A]
+(;W[kb]C[Younggil [8p\]: There's a better place for White 40. Where is it?
+
+Kashomon [1k\]: A?]
+;B[dd]
+;W[cd]
+;B[ec]
+;W[dg]
+(;B[db]C[### A Missed Chance
+
+Younggil [8p\]: By the way, Black missed a good chance. Black 45 was a mistake.
+
+]
+;W[cc]
+;B[fe]LB[df:A][dg:B]C[Kashomon [1k\]: Black 47 seemed like a mistake
+
+Younggil [8p\]: because the exchange of A for B is good for White
+
+Kashomon [1k\]: I see
+]
+;W[fc]C[Younggil [8p\]: This was sharp
+]
+;B[fb]
+;W[ed]
+;B[eb]
+;W[ff]
+;B[eg]
+;W[ef]
+;B[ee]
+;W[ge]
+;B[fd]
+;W[gf]C[Younggil [8p\]: Very good
+]
+;B[dh]
+;W[cg]
+(;B[gc]
+;W[cm]C[### White Defends his Moyo
+
+Younggil [8p\]: So were you satisfied up to here?
+
+Kashomon [1k\]: Yes
+
+Younggil [8p\]: Very good for White.
+]
+;B[em]
+;W[cn]
+;B[dr]
+;W[er]
+;B[cr]
+;W[bo]
+;B[bp]
+;W[bn]
+;B[ar]
+;W[ei]
+;B[qm]
+;W[qo]
+;B[go]
+;W[gr]
+;B[fk]
+;W[fn]
+;B[me]
+;W[ne]
+;B[mc]
+;W[md]
+;B[ld]
+;W[nd]
+;B[lc]
+;W[le]
+;B[kc]
+;W[mf]C[Younggil [8p\]: Smooth and nice. Very good game for you.
+]
+;B[gi]
+;W[hk]
+;B[ii]
+;W[gj]
+;B[fi]
+;W[fj]
+;B[eh]
+;W[fh]
+;B[fg]
+;W[gh]
+;B[gg]
+;W[hi]
+;B[hf]
+;W[he]
+;B[ie]C[### A Finishing Mistake
+
+Younggil [8p\]: I see, he misread here, but the game was already quite decided
+]
+;W[hg]
+;B[rn]
+;W[ro]
+;B[pb]
+;W[jo]
+;B[im]
+;W[km]C[White wins by Resignation.])
+(;B[hd]C[Younggil [8p\]: This would be better shape.
+]
+(;W[cm]
+;B[fh]
+;W[hh]
+;B[ch]C[Younggil [8p\]: Black can fight like this.
+])
+(;W[ei]
+;B[bl]C[Younggil [8p\]: Black is behind, but it's still playable.])))
+(;B[cc]
+;W[db]
+;B[bc]C[Younggil [8p\]: Black should cut here to fight
+
+Younggil [8p\]: if Black plays like this. Where would you continue?
+]
+;W[cb]
+;B[cg]
+;W[ch]C[Younggil [8p\]: Right, Black should play in the corner first
+]
+;B[bb]
+;W[eb]C[Younggil [8p\]: White should try to save, and then Black can come back to the left side first.
+]
+(;B[fc]C[Younggil [8p\]: For example, White can make it a ko
+])
+(;B[bg]
+;W[bf]
+;B[fc]
+(;W[bd]C[Younggil [8p\]: This is complicated
+
+Kashomon [1k\]: I should study my large avalanche more!
+])
+(;W[fb]
+;B[eg]
+;W[dh]
+;B[bd]
+;W[bh]
+;B[gb]C[Kashomon [1k\]: I haven't seen this variation.
+
+Younggil [8p\]: In this case, Black can play like this to capture.
+
+Kashomon [1k\]: Because of j17.
+
+Younggil [8p\]: yes right
+]
+(;W[gc]
+;B[gd]
+;W[hc]
+;B[hb]
+;W[hd]
+;B[fe]C[Younggil [8p\]: If White plays like this, Black can capture White's stones.])
+(;W[ef]
+;B[ed]
+;W[hb]
+;B[gc]
+;W[ga]
+;B[ib]
+;W[ia]
+;B[ja]
+;W[jb]C[Younggil [8p\]: White still has options: Later, White can make it a ko, later. ]
+;B[ha]
+;W[no]
+;B[mp]
+;W[ia]
+;B[hc]
+;W[ka]
+;B[ha]
+;W[pe]
+;B[qe]
+;W[hb]
+;B[fa]
+;W[ea]
+;B[ha]
+;W[bn]
+;B[hb]
+;W[dr]C[Younggil [8p\]: Maybe something like this. White can capture the bottom left
+
+Kashomon [1k\]: I see. It's a heavy ko for black.
+
+Younggil [8p\]: Yes, nornally black's better, but in this game, it wasn't the first joseki on the board -- here were already many stones.
+
+Kashomon [1k\]: I see
+
+Younggil [8p\]: So White has more ko threats compared to normal situations.
+])))))
+(;W[dd]C[Younggil [8p\]: This is good.])
+(;W[dg]C[Younggil [8p\]: This also works. Both are ok. 
+
+Younggil [8p\]: Black played elsewhere while playing here, so playing one move around here is very good.
+
+Younggil [8p\]: White can make the two Black stones bad, and so White shouldn't answer the top.
+]))
+(;B[de]
+;W[ce]
+;B[dd]
+;W[cd]
+;B[ec]
+;W[cf]
+(;B[db]C[Younggil [8p\]: This is reasonable
+])
+(;B[ic]
+;W[kb]
+;B[db]
+;W[cc]
+;B[fd]C[Younggil [8p\]: This is also possible.
+])))
+(;W[ce]
+;B[lc]LB[jc:A][pc:B][qc:C]C[Younggil [8p\]: This is also possible because now, White has some options at A to C.
+]
+;W[jc]
+;B[md]
+;W[qc]C[Younggil [8p\]: White can still come here to live.
+]))
+(;B[jq]
+;W[ip]
+;B[ir]
+;W[hr]
+;B[jr]C[Younggil [8p\]: Black could also play like this.
+]))
+(;B[dr]
+;W[er]C[Younggil [8p\]: The previous variations are better when you invade at the bottom, and also for the endgame. Black wouldn't play this now.
+]))
+(;W[er]C[Younggil [8p\]: This connection is generally better. And also...
+
+]
+(;B[dr]
+;W[eq]C[Younggil [8p\]: If Black has to atari, the exchange is better for White
+])
+(;B[pm]
+;W[oo]
+;B[np]
+;W[cr]C[Younggil [8p\]: if Black doesn't play, White can hane here.])))
+(;W[cq]C[Younggil [8p\]: This is more common.]
+;B[dm]
+;W[eo]
+;B[cm]
+;W[em]
+;B[bk]C[Younggil [8p\]: There are many possible variations and this is one of them
+])
+(;W[er]C[Younggil [8p\]: This is also possible
+]
+;B[eo]
+;W[dn]
+;B[fp]
+;W[eq]C[Kashomon [1k\]: It looks a little scary
+
+Younggil [8p\]: since Black's outside is weak, White can fight
+]
+;B[br]
+;W[cr]
+;B[bq]C[
+Younggil [8p\]:  Black must do this.
+]
+;W[gr]C[Younggil [8p\]: And then White can easily live inside
+]
+;B[hr]
+;W[hq]C[Younggil [8p\]: White can even cut here to counter.
+
+Kashomon [1k\]: Wow, nice.]))
+(;B[oq]
+;W[cp]
+;B[pj]C[Younggil [8p\]: This is more usual if he wants to have this sort of position.]))
