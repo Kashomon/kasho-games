@@ -1,0 +1,6055 @@
+\documentclass[letterpaper,12pt]{memoir}
+\usepackage{color}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+%% Define any extra packages %%
+\usepackage{gnos}
+
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+
+%% Diagram Figure defs.
+% Must expose two commands
+%  \gofigure  (mainline diagrams)
+%  \godiagram (variation diagrams)
+% Mainline Diagrams. reset at parts
+\newcounter{GoFigure}[part]
+
+\newcommand{\gofigure}{%
+ \stepcounter{GoFigure}
+ \centerline{\textit{Diagram.\thinspace\arabic{GoFigure}}}
+}
+% Variation Diagrams. reset at parts.
+\newcounter{GoVariation}[part]
+
+\newcommand{\govariation}[1][]{%
+ \stepcounter{GoVariation}
+ \centerline{\textit{Variation.\thinspace\arabic{GoVariation}#1}}
+}
+
+\newcommand{\subtext}[1]{\centerline{\textit{#1}}}
+
+%% Define the main title %%
+\definecolor{light-gray}{gray}{0.55}
+\newcommand*{\mainBookTitle}{\begingroup
+  \raggedleft
+     {\Large{You!}} \\
+     \vspace*{1 em}
+  \vspace*{5 em}
+  {\textcolor{light-gray}{\Huge{My Book}}}\\
+  \vspace*{\baselineskip}
+  \vfill
+  {\Large{GPub}}\par
+  \vspace*{2\baselineskip}
+\endgroup}
+ %% Chapter settings %%
+\chapterstyle{madsen}
+\pagestyle{companion}
+\openany
+\makepagestyle{headings}
+\makeevenhead{headings}{\thepage}{}{\slshape\leftmark}
+\makeoddhead{headings}{\slshape\rightmark}{}{\thepage}
+
+\begin{document}
+%% The Frontmatter. %%
+\begin{titlingpage}
+\mainBookTitle
+\end{titlingpage}
+\frontmatter*
+
+
+
+\newpage
+\tableofcontents
+
+
+%% The content. %%
+\mainmatter
+
+Younggil [8p]: looks nice
+
+
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++\gnosOverlap{!}{\small{2}}+++++++++\gnosOverlap{@}{\color{white}\small{7}}++++]\\
+\char91++*+++++*+++++\gnosOverlap{@}{\color{white}\small{1}}+\gnosOverlap{!}{\small{8}}]\\
+\char91+\gnosOverlap{@}{\color{white}\small{9}}+++++++++++++++]\\
+\char91+++++++++++++++\gnosOverlap{!}{\small{6}}+]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+\gnosOverlap{!}{\footnotesize{10}}*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*\gnosOverlap{@}{\color{white}\small{3}}+]\\
+\char91++\gnosOverlap{!}{\small{4}}++++++++++\gnosOverlap{@}{\color{white}\small{5}}+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 1-10)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: It seems like W might be a little weak
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91\gnosOverlap{!}{\small{8}}\gnosOverlap{!}{\small{6}}+++++++++++++++]\\
+\char91+\gnosOverlap{@}{\color{white}\small{5}}!+++++++++@++++]\\
+\char91+\gnosOverlap{@}{\color{white}\small{7}}*+\gnosOverlap{!}{\small{4}}+++\gnosOverlap{@}{\color{white}\small{1}}+++++@+!]\\
+\char91++\gnosOverlap{@}{\color{white}\small{3}}++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+\gnosOverlap{!}{\small{2}}+++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*@+]\\
+\char91++!++++++++++@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\small{8}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: normally this extension is good
+Younggil [8p]: but mostly only in this case
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+\gnosOverlap{!}{\small{8}}+\gnosOverlap{!}{\footnotesize{10}}+++++++++++++]\\
+\char91+\gnosOverlap{@}{\color{white}\small{7}}!+\gnosOverlap{!}{\small{6}}+++++++@++++]\\
+\char91+\gnosOverlap{@}{\color{white}\small{9}}*+++++\gnosOverlap{@}{\color{white}\small{1}}+++++@+!]\\
+\char91++\gnosOverlap{@}{\color{white}\small{3}}+\gnosOverlap{@}{\color{white}\small{5}}++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91++\gnosOverlap{!}{\small{4}}++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+\gnosOverlap{!}{\small{2}}+++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*@+]\\
+\char91++!++++++++++@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\small{8}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: in this sort of case, E18 is better
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!+++++++++++++]\\
+\char91+@!+!+++++++@++++]\\
+\char91+@*+++++@+++++@+!]\\
+\char91++@+@++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91+\gnosOverlap{@}{\color{white}\footnotesize{11}}!++++++++++++++]\\
+\char91+\gnosOverlap{!}{\footnotesize{12}}\gnosOverlap{@}{\color{white}\footnotesize{13}}++++++++++++++]\\
+\char91+!+++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*@+]\\
+\char91++!++++++++++@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\small{8}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: I see
+Younggil [8p]: this is another joseki
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+\gnosOverlap{!}{\small{6}}+\gnosOverlap{!}{\small{8}}+++++++++++++]\\
+\char91+\gnosOverlap{@}{\color{white}\small{5}}!+\gnosOverlap{!}{\small{4}}+++++++@++++]\\
+\char91+\gnosOverlap{@}{\color{white}\small{7}}*+++++*+++++@+!]\\
+\char91++\gnosOverlap{@}{\color{white}\small{1}}+\gnosOverlap{@}{\color{white}\small{3}}++++++++++++]\\
+\char91++\gnosOverlap{@}{\color{white}\footnotesize{15}}++++++++++++!+]\\
+\char91+\gnosOverlap{@}{\color{white}\small{9}}\gnosOverlap{!}{\small{2}}\gnosOverlap{@}{\color{white}\footnotesize{13}}+++++++++++++]\\
+\char91+\gnosOverlap{!}{\footnotesize{10}}\gnosOverlap{@}{\color{white}\footnotesize{11}}++++++++++++++]\\
+\char91+\gnosOverlap{!}{\footnotesize{12}}\gnosOverlap{!}{\footnotesize{14}}++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+\gnosOverlap{!}{\footnotesize{16}}+++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*@+]\\
+\char91++!++++++++++@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\small{8}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: this is one of main variations
+Kashomon [1k]: Would black play like this
+Kashomon [1k]: in the variation we saw?
+Younggil [8p]: yea
+Kashomon [1k]: alright
+Kashomon [1k]: The F15 stone seems a little weirdly placed
+Kashomon [1k]: but White is low
+Younggil [8p]: right
+Younggil [8p]: that's why White chose this way
+Younggil [8p]: and Black's happy with sente
+Younggil [8p]: and this group is also completely settled
+Younggil [8p]: so ok for both :)
+Kashomon [1k]: thanks
+Younggil [8p]: you can see some more variations from the commentary played between Kim Jiseok and Lian Xiao
+Younggil [8p]: by the wat
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++!+++++++++@++\gnosOverlap{!}{\footnotesize{14}}+]\\
+\char91++*\gnosOverlap{!}{\footnotesize{12}}++\gnosOverlap{@}{\color{white}\footnotesize{11}}+*+++++@+!]\\
+\char91+@+++++++++++++\gnosOverlap{@}{\color{white}\footnotesize{15}}\gnosOverlap{!}{\footnotesize{16}}]\\
+\char91++++++++++++++\gnosOverlap{@}{\color{white}\footnotesize{17}}!\gnosOverlap{!}{\footnotesize{20}}]\\
+\char91+++++++++++++\gnosOverlap{@}{\color{white}\footnotesize{21}}\gnosOverlap{!}{\footnotesize{18}}\gnosOverlap{@}{\color{white}\footnotesize{19}}+]\\
+\char91+++++++++++++++\gnosOverlap{@}{\color{white}\footnotesize{13}}+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++\gnosOverlap{@}{\color{white}\footnotesize{23}}++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++\gnosEmptyLbl{\small{B}}+]\\
+\char91++*+++++\gnosOverlap{!}{\footnotesize{22}}+++++*@\gnosEmptyLbl{\small{A}}]\\
+\char91++!++++++++++@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 11-23)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: so far so good
+Kashomon [1k]: This is a pause in the game
+Younggil [8p]: yea
+Kashomon [1k]: Is it a good time to play at A ? 
+Younggil [8p]: hmm
+Younggil [8p]: White can normally attach at R5 in this position
+Younggil [8p]: so A isn't good time
+Kashomon [1k]: I see
+Kashomon [1k]: So would White play
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++!+++++++++@++!+]\\
+\char91++*!++@+*+++++@+!]\\
+\char91+@+++++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+++++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++\gnosOverlap{!}{\footnotesize{24}}+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Move: 24)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: I gregretted this move later
+Younggil [8p]: but this is also very big
+Younggil [8p]: i see
+Kashomon [1k]: one sec
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++!+++++++++@++!+]\\
+\char91+\gnosOverlap{!}{\small{1}}*!++@+*+++++@+!]\\
+\char91+@+++++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+++++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++++@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{23}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: this is also big
+Younggil [8p]: this move is quite big, necause
+Younggil [8p]: because that's hard for Black to move that single stone
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++!+++++++++@++!+]\\
+\char91+!*!++@+*+++++@+!]\\
+\char91+@+++++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+++++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+\gnosOverlap{@}{\color{white}\small{2}}+++*@+]\\
+\char91++!++++++++++@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{23}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: Yeah, that would have been nice
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++!+++++++++@++!+]\\
+\char91+!*!++@+*+++++@+!]\\
+\char91+@+++++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+++++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++++++++\gnosOverlap{!}{\small{3}}++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+@+++*@+]\\
+\char91++!++++++++++@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{23}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: another game
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++!+++++++++@++!+]\\
+\char91+!*!++@+*+++++@+!]\\
+\char91+@\gnosOverlap{@}{\color{white}\small{2}}\gnosOverlap{!}{\small{3}}+++++++++++@!]\\
+\char91+++\gnosOverlap{@}{\color{white}\small{4}}\gnosOverlap{!}{\small{5}}+++++++++@!!]\\
+\char91+++\gnosOverlap{@}{\color{white}\small{6}}+++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++++@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{23}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: yeah
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++!+++++++++@++!+]\\
+\char91+!*!++@+*+++++@+!]\\
+\char91+@@!+++++++++++@!]\\
+\char91+++@!+++++++++@!!]\\
+\char91+\gnosOverlap{!}{\small{7}}+@+++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++++@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{23}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: this is bad for Black
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++!+++++++++@++!+]\\
+\char91+!*!++\gnosOverlap{@}{\color{white}\small{A}}+*+++++@+!]\\
+\char91+@\gnosOverlap{@}{\color{white}\small{2}}\gnosOverlap{!}{\small{3}}+++++++++++@!]\\
+\char91+++\gnosOverlap{!}{\small{5}}++++++++++@!!]\\
+\char91++\gnosOverlap{@}{\color{white}\small{4}}++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+\gnosOverlap{@}{\color{white}\small{8}}\gnosOverlap{@}{\color{white}\small{6}}++++++++++++++]\\
+\char91+!\gnosOverlap{!}{\small{7}}\gnosOverlap{!}{\small{9}}++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++++@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{23}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: this is still ok for White
+Younggil [8p]: and A becomes weak
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++!+++++++++@++!+]\\
+\char91++*!++@+*+++++@+!]\\
+\char91+@+++++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+++++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++\gnosOverlap{!}{\small{1}}+]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++++@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{23}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: no worries
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++!+++++++++@++!+]\\
+\char91++*!++@+*+++++@+!]\\
+\char91+@+++++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+++++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91++*+++++!+++++\gnosOverlap{@}{\color{white}\small{2}}@\gnosOverlap{!}{\small{3}}]\\
+\char91++!++++++++++@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{23}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: I see, thanks
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++!+++++++++@++!+]\\
+\char91++*!++@+*+++++@+!]\\
+\char91+@+++++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+++++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91++*+++++!+++++@@!]\\
+\char91++!++++++++++@++\gnosOverlap{@}{\color{white}\small{4}}]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{23}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: that's still possiblet hough
+Younggil [8p]: yes
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++!+++++++++@++!+]\\
+\char91+\gnosEmptyLbl{\small{A}}*!++@+*+++++@+!]\\
+\char91+@+++++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+++++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++\gnosOverlap{!}{\small{5}}+]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91++*+++++!+++++@@!]\\
+\char91++!++++++++++@++@]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{23}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: and R8
+Younggil [8p]: right
+Kashomon [1k]: I see
+Kashomon [1k]: is this possible for now? or is A more urgent?
+Younggil [8p]: A is more urgent
+Kashomon [1k]: Why?
+Younggil [8p]: after Black plays M3 or M4, white can still play like this
+Kashomon [1k]: I see
+Younggil [8p]: and after {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\small{C}}}}}17, that's hard to attack
+Kashomon [1k]: So this would be White's plan for black playing those moves
+Younggil [8p]: Black can simply settle
+Younggil [8p]: yes
+Kashomon [1k]: isn't there something...
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++!+++++++++@++!+]\\
+\char91++*!++@+*+++++@+!]\\
+\char91+@+++++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+++++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++\gnosOverlap{@}{\color{white}\small{4}}+]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91++*+++++!+++++@@!]\\
+\char91++!++++++++++@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{23}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: like this?
+Younggil [8p]: where'd you play next then?
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++!+++++++++@++!+]\\
+\char91++*!++@+*+++++@+!]\\
+\char91+@+++++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+++++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++\gnosOverlap{!}{\small{5}}+]\\
+\char91+++++++++++++++!+]\\
+\char91++*+++++!+++++@@!]\\
+\char91++!++++++++++@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{23}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: maybe this
+Younggil [8p]: Q7
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++!+++++++++@++!+]\\
+\char91++*!++@+*+++++@+!]\\
+\char91+@+++++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+++++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++++++++++++++\gnosOverlap{@}{\color{white}\small{6}}@+]\\
+\char91+++++++++++++++!+]\\
+\char91+++++++++++++++!+]\\
+\char91++*+++++!+++++@@!]\\
+\char91++!++++++++++@++\gnosOverlap{!}{\small{7}}]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{23}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: very good
+Kashomon [1k]: And then White probably needs to go into the corner
+Younggil [8p]: that's a very good idea
+Younggil [8p]: white can live easily
+Younggil [8p]: so Black should block at S3
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++!+++++++++@++!+]\\
+\char91++*!++@+*+++++@+!]\\
+\char91+@+++++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+++++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++\gnosOverlap{@}{\color{white}\small{2}}+]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++++@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{23}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: that's possible
+Younggil [8p]: Park Jugnhwan played here at the LG Cup final
+Kashomon [1k]: And this -- this is possible too. I believe you talked about this in a pro game
+Kashomon [1k]: yeah
+Younggil [8p]: yes right :)
+Kashomon [1k]: Anyway. Thanks.
+Younggil [8p]: you're welcome
+Kashomon [1k]: Would you like to see another game?
+Younggil [8p]: yes
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91+\gnosOverlap{@}{\color{white}\footnotesize{25}}!+++++++++@++!+]\\
+\char91++*!++@+*+++++@+!]\\
+\char91+@+++++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+++++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Move: 25)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: because Black played here first?
+Younggil [8p]: ok
+Kashomon [1k]: Can you complete that joseki
+Kashomon [1k]: I'll take a look
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91\gnosEmptyLbl{\small{B}}\gnosOverlap{!}{\footnotesize{26}}+\gnosEmptyLbl{\small{A}}+++++++++++++]\\
+\char91+@!+++++++++@++!+]\\
+\char91+\gnosOverlap{@}{\color{white}\footnotesize{27}}*!++@+*+++++@+!]\\
+\char91+@+++++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+++++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 26-27)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: this result doesn't looks soo good
+Younggil [8p]: if you play here again?
+Younggil [8p]: right
+Kashomon [1k]: E18
+Younggil [8p]: good
+Younggil [8p]: there're two options in the corner
+Younggil [8p]: and mostly A is better
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+++++++++++++++]\\
+\char91+@!+++++++++@++!+]\\
+\char91+@*!\gnosOverlap{@}{\color{white}\footnotesize{31}}+@+*+++++@+!]\\
+\char91+@+\gnosOverlap{@}{\color{white}\footnotesize{29}}\gnosOverlap{!}{\footnotesize{30}}++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+\gnosOverlap{!}{\footnotesize{28}}+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 28-31)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: hmm
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+\gnosOverlap{!}{\small{1}}+++++++++++++]\\
+\char91+@!+++++++++@++!+]\\
+\char91+@*!++@+*+++++@+!]\\
+\char91+@+++++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+++++++++++++@!@+]\\
+\char91+\gnosOverlap{@}{\color{white}\small{2}}+++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{27}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: oh hm. Is B18 possible?
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+++++++++++++++]\\
+\char91+@!+\gnosOverlap{!}{\footnotesize{32}}+++++++@++!+]\\
+\char91+@*!@+@+*+++++@+!]\\
+\char91+@+@!++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Move: 32)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: if it's hard to fight here
+Kashomon [1k]: yeah
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+\gnosOverlap{!}{\small{1}}+++++++++++++]\\
+\char91+@!+++++++++@++!+]\\
+\char91+@*!@+@+*+++++@+!]\\
+\char91+@+@!++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{31}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: how about playing here?
+Kashomon [1k]: hm
+Kashomon [1k]: Seems like Black will play F17
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!\gnosOverlap{!}{\small{7}}!\gnosOverlap{!}{\small{3}}++++++++++++]\\
+\char91+@!\gnosOverlap{@}{\color{white}\small{4}}\gnosOverlap{@}{\color{white}\small{2}}+\gnosOverlap{@}{\color{white}\small{8}}+++++@++!+]\\
+\char91+@\gnosOverlap{!}{\small{5}}!@+@+*+++++@+!]\\
+\char91+@\gnosOverlap{@}{\color{white}\small{6}}@!++++++++++@!]\\
+\char91++++++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{31}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: something like this maybe?
+Younggil [8p]: still not good for white
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+++++++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@*!@\gnosOverlap{@}{\color{white}\footnotesize{33}}@+*+++++@+!]\\
+\char91+@\gnosOverlap{!}{\footnotesize{34}}@!++++++++++@!]\\
+\char91+++\gnosOverlap{@}{\color{white}\footnotesize{35}}++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 33-35)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: yes
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+++++++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@\gnosOverlap{!}{\footnotesize{36}}!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+++@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Move: 36)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: i think C13 was a mistake
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+\gnosOverlap{!}{\footnotesize{38}}+++++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+\gnosOverlap{@}{\color{white}\footnotesize{39}}\gnosOverlap{@}{\color{white}\footnotesize{37}}@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 37-39)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: painful
+Younggil [8p]: the result is good for Black
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!+\gnosOverlap{@}{\color{white}\footnotesize{41}}+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++\gnosOverlap{!}{\footnotesize{40}}++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 40-41)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: hmm
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!\gnosOverlap{!}{\footnotesize{42}}@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++\gnosOverlap{!}{\footnotesize{44}}++++++++++++++]\\
+\char91+\gnosOverlap{@}{\color{white}\footnotesize{43}}+++++++++++++++]\\
+\char91+++\gnosOverlap{@}{\color{white}\footnotesize{45}}+++++++++++++]\\
+\char91+\gnosOverlap{!}{\footnotesize{46}}+++++++++++++++]\\
+\char91++!++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 42-46)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: this move was calm and nice
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!+@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*\gnosOverlap{!}{\small{1}}++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++!++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{41}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: doesn't f18 kill?
+Younggil [8p]: what if White doesn't answer?
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!\gnosOverlap{@}{\color{white}\small{2}}@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*!++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++!++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{41}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: what can white do?
+Younggil [8p]: to live
+Kashomon [1k]: B18 might work
+Younggil [8p]: so White should just extend
+Kashomon [1k]: nice lifet and death
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91\gnosOverlap{!}{\small{3}}!+!@@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*!++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++!++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{41}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: yes!
+Younggil [8p]: yea :)
+Younggil [8p]: it's easy to make a mistake in the game
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!@@+++++++++++]\\
+\char91\gnosOverlap{!}{\small{3}}@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*!++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++!++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{41}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: if White hane here?
+Kashomon [1k]: thinking...
+Kashomon [1k]: B18?
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<\gnosOverlap{!}{\small{5}}((((((((((((((((>\\
+\gnosOverlap{@}{\color{white}\small{6}}\gnosOverlap{@}{\color{white}\small{4}}!+!@@+++++++++++]\\
+\gnosOverlap{!}{\small{7}}!@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*!++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++!++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{41}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: white can live
+Younggil [8p]: so
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!@@+++++++++++]\\
+\char91!@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++\gnosOverlap{@}{\color{white}\small{4}}++++++++++++++]\\
+\char91+!\gnosOverlap{!}{\small{5}}!++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++!++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{41}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: there's a vital point
+Younggil [8p]: and you can make it 'bent four in the corner'
+Younggil [8p]: you can control
+Kashomon [1k]: I see
+Younggil [8p]: can you try again?
+Kashomon [1k]: that makes sense
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<\gnosOverlap{!}{\small{7}}((\gnosOverlap{@}{\color{white}\small{6}}(((((((((((((>\\
+\gnosOverlap{@}{\color{white}\small{8}}+!+!@@+++++++++++]\\
+\char91!@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++@++++++++++++++]\\
+\char91+!!!++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++!++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{41}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: B18
+Younggil [8p]: D19
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<!(\gnosOverlap{!}{\small{9}}@(((((((((((((>\\
+@+!+!@@+++++++++++]\\
+\char91!@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++@++++++++++++++]\\
+\char91+!!!++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++!++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{41}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: yes
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<!(!@\gnosOverlap{@}{\color{white}\footnotesize{10}}((((((((((((>\\
+@+!+!@@+++++++++++]\\
+\char91!@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++@++++++++++++++]\\
+\char91+!!!++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++!++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{41}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: it's alive
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!@@+++++++++++]\\
+\char91!@!+!+++++++@++!+]\\
+\gnosOverlap{@}{\color{white}\small{6}}+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++@++++++++++++++]\\
+\char91+!!!++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++!++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{41}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: so before hane
+Younggil [8p]: there
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<\gnosOverlap{!}{\small{7}}((((((((((((((((>\\
+\char91+!+!@@+++++++++++]\\
+\char91!@!+!+++++++@++!+]\\
+@+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++@++++++++++++++]\\
+\char91+!!!++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++!++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{41}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: black can hit the vital point first
+Younggil [8p]: good for white
+Younggil [8p]: normally in the corner
+Kashomon [1k]: sorry, not seeing it
+Younggil [8p]: 2-1 is a well known vital point
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<\gnosOverlap{@}{\color{white}\small{6}}((((((((((((((((>\\
+\char91\gnosOverlap{!}{\small{7}}!+!@@+++++++++++]\\
+\char91!@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++@++++++++++++++]\\
+\char91+!!!++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++!++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{41}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: yes right 
+Younggil [8p]: and then?
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<@(\gnosOverlap{!}{\small{9}}\gnosOverlap{@}{\color{white}\small{8}}\gnosOverlap{@}{\color{white}\footnotesize{10}}((((((((((((>\\
+\char91!!+!@@+++++++++++]\\
+\char91!@!+!+++++++@++!+]\\
+\char91\gnosOverlap{!}{\footnotesize{11}}@!!@@@+*+++++@+!]\\
+\char91\gnosOverlap{@}{\color{white}\footnotesize{12}}@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++@++++++++++++++]\\
+\char91+!!!++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++!++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{41}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: great!
+Younggil [8p]: that's it
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++\gnosOverlap{!}{\footnotesize{52}}++++++++++++]\\
+\char91+!*++\gnosEmptyLbl{\small{A}}++*+++++@++]\\
+\char91++!\gnosEmptyLbl{\small{B}}\gnosOverlap{!}{\footnotesize{50}}++++++++++++]\\
+\char91+@+\gnosOverlap{@}{\color{white}\footnotesize{51}}+++++++++++++]\\
+\char91+\gnosOverlap{@}{\color{white}\footnotesize{49}}+@+++++++++++++]\\
+\char91+!+++++++++++++++]\\
+\char91++!++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91+\gnosOverlap{@}{\color{white}\footnotesize{47}}!++++++++!+@+++]\\
+\char91++\gnosOverlap{!}{\footnotesize{48}}++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 47-52)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: Was this the right shape?
+Younggil [8p]: yes, good
+Kashomon [1k]: The other options I was considering
+Kashomon [1k]: were G10
+Kashomon [1k]: and E9
+Younggil [8p]: i see
+Younggil [8p]: G10 isn't a good shape
+Younggil [8p]: because of peep at F11
+Kashomon [1k]: yea
+Younggil [8p]: and B is also slow
+Younggil [8p]: so this jump was good
+Kashomon [1k]: ok
+Younggil [8p]: and also this is good to reduce Black's top later
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+\gnosOverlap{!}{\small{2}}+\gnosOverlap{!}{\small{4}}+\gnosOverlap{!}{\small{8}}++++++++]\\
+\char91+@\gnosOverlap{@}{\color{white}\small{1}}++++++++++++++]\\
+\char91+++@\gnosOverlap{@}{\color{white}\small{7}}\gnosOverlap{@}{\color{white}\small{3}}+\gnosOverlap{@}{\color{white}\small{5}}+++++++++]\\
+\char91+!++\gnosOverlap{!}{\small{6}}++++++++++++]\\
+\char91++!++++++++++++++]\\
+\char91++*+++++!+++++*@+]\\
+\char91++!++++++++!+@+++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{46}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: white can be alright to eraze Black's potential
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!+++++++++++++++]\\
+\char91+\gnosOverlap{!}{\footnotesize{54}}!++++++++++++++]\\
+\char91+\gnosOverlap{@}{\color{white}\footnotesize{53}}*+++++!+++++*@+]\\
+\char91+@!++++++++!+@+++]\\
+\char91++!++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 53-54)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: good
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!+++++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@\gnosOverlap{@}{\color{white}\footnotesize{55}}\gnosOverlap{!}{\footnotesize{56}}++++!+++++*@+]\\
+\char91+@!\gnosOverlap{@}{\color{white}\footnotesize{57}}+++++++!+@+++]\\
+\char91++!++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 55-57)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+jrhoak: Ho boy, I hope I'm reading this correctly
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!+++++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!++++!+++++*@+]\\
+\char91+@!@+++++++!+@+++]\\
+\char91\gnosOverlap{@}{\color{white}\footnotesize{59}}\gnosOverlap{!}{\footnotesize{58}}!++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 58-59)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: now
+Younggil [8p]: before extending at F4
+Younggil [8p]: White can exchange something useful
+Kashomon [1k]: should black B4?
+Kashomon [1k]: or maybe throw in?
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!+++++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!\gnosOverlap{!}{\footnotesize{60}}+++!+++++*@+]\\
+\char91+@!@+++++++!+@+++]\\
+\char91@!!++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Move: 60)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: i see
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!+++++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91\gnosOverlap{@}{\color{white}\small{2}}@@!++++!+++++*@+]\\
+\char91\gnosOverlap{!}{\small{1}}@!@+++++++!+@+++]\\
+\char91@!!++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{59}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: that doesn't help
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!+++++++++++++++]\\
+\char91\gnosOverlap{!}{\small{3}}!!++++++++++++++]\\
+\char91@@@!++++!+++++*@+]\\
+\gnosOverlap{@}{\color{white}\small{4}}!@!@+++++++!+@+++]\\
+\char91@!!++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{59}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: no
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!+++++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91\gnosOverlap{!}{\small{1}}@@!++++!+++++*@+]\\
+\char91\gnosOverlap{@}{\color{white}\small{2}}@!@+++++++!+@+++]\\
+\char91@!!++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{59}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: this?
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!+++++++++++++++]\\
+\char91\gnosOverlap{!}{\small{1}}!!++++++++++++++]\\
+\char91+@@!++++!+++++*@+]\\
+\char91+@!@+++++++!+@+++]\\
+\char91@!!++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{59}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: instead of atari
+Kashomon [1k]: or actually this?
+Younggil [8p]: yes right
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!+++++++++++++++]\\
+\char91!!!++++++++++++++]\\
+\char91+@@!\gnosOverlap{!}{\small{3}}+++!+++++*@+]\\
+\char91\gnosOverlap{@}{\color{white}\small{2}}@!@+++++++!+@+++]\\
+\char91@!!++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{59}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: just moment Josh
+Kashomon [1k]: no problem
+Younggil [8p]: I'll brb
+Kashomon [1k]: ok, I'm going to get some tea
+Kashomon [1k]: back
+Younggil [8p]: I'm back
+Younggil [8p]: sorry about that
+Younggil [8p]: by the way, this is better
+Kashomon [1k]: No worries. 
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!+++++++++++++++]\\
+\char91\gnosOverlap{!}{\small{A}}!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91\gnosOverlap{@}{\color{white}\small{B}}@!@\gnosOverlap{!}{\small{7}}++++++!+@+++]\\
+\char91@!!\gnosOverlap{@}{\color{white}\small{4}}\gnosOverlap{!}{\small{5}}++++++++++++]\\
+,)\gnosOverlap{@}{\color{white}\small{6}}\gnosOverlap{@}{\color{white}\small{8}})))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{59}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: Yes that makes sense
+Younggil [8p]: A and B is benefitial
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!+++++++++++++++]\\
+\char91!!!++++++++++++++]\\
+\gnosOverlap{!}{\small{3}}\gnosOverlap{@}{\color{white}\small{2}}@@!++++!+++++*@+]\\
+\char91\gnosOverlap{@}{\color{white}\small{4}}@!@+++++++!+@+++]\\
+\char91@!!++++++++++++++]\\
+,\gnosOverlap{!}{\small{5}})))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{59}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: Black can't block, because of this
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!+++++++++++++++]\\
+\char91!!!++++++++++++++]\\
+!@@@!++++!+++++*@+]\\
+\char91@@!@+++++++!+@+++]\\
+\gnosOverlap{@}{\color{white}\small{6}}@!!++++++++++++++]\\
+,!)))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{59}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: nice
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!+++++++++++++++]\\
+\gnosOverlap{!}{\small{7}}!!!++++++++++++++]\\
+!@@@!++++!+++++*@+]\\
+\char91@@!@+++++++!+@+++]\\
+@@!!++++++++++++++]\\
+,!)))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{59}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: white can capture them all
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@++\gnosOverlap{@}{\color{white}\footnotesize{61}}++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!+++++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@!@+++++++!+@+++]\\
+\char91@!!++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Move: 61)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+autumnleaves: me too :)
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@++@++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!++\gnosOverlap{!}{\footnotesize{62}}++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@!@\gnosOverlap{!}{\footnotesize{66}}++++++!+@+++]\\
+\char91@!!\gnosOverlap{@}{\color{white}\footnotesize{63}}\gnosOverlap{!}{\footnotesize{64}}++++++++++++]\\
+,)\gnosOverlap{@}{\color{white}\footnotesize{65}}\gnosOverlap{@}{\color{white}\footnotesize{67}})))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 62-67)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: Here I should have played at H16
+Kashomon [1k]: err H10
+Younggil [8p]: since Black wasnts to sacrifice them all
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@++@++++++++++]\\
+\char91+@+@+\gnosOverlap{!}{\footnotesize{68}}+++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Move: 68)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: i see
+Younggil [8p]: what did you feel about the result?
+Kashomon [1k]: I thought it was ok
+Kashomon [1k]: But I didn't realize black's plan
+Younggil [8p]: i see
+Younggil [8p]: the game was still better for Black
+Younggil [8p]: because of the top left
+Kashomon [1k]: This felt like a losing move
+Younggil [8p]: so White'd better play more aggressively
+Younggil [8p]: i see
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++\gnosOverlap{!}{\small{1}}+*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@++@++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{67}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: yes, good idea
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+++++*+++++@++]\\
+\char91++!+!++\gnosOverlap{!}{\small{1}}+++++++++]\\
+\char91+@+@++@++++++++++]\\
+\char91+@+@+++++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{67}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: or even here
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91+++++++++++++++@+]\\
+\char91++++!+\gnosOverlap{!}{\small{7}}\gnosOverlap{@}{\color{white}\small{6}}+++++++++]\\
+\char91+!*+++\gnosOverlap{!}{\small{3}}\gnosOverlap{@}{\color{white}\small{4}}\gnosOverlap{!}{\small{5}}+++++@++]\\
+\char91++!+!+\gnosOverlap{@}{\color{white}\small{2}}!+++++++++]\\
+\char91+@+@++@++++++++++]\\
+\char91+@+@+\gnosEmptyLbl{\small{A}}+++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{67}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: white can fight like this
+Younggil [8p]: and that's hard for Black to come back at A later
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++++++++++@!@+]\\
+\char91++++++\gnosOverlap{@}{\color{white}\footnotesize{71}}++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+\gnosOverlap{!}{\footnotesize{70}}\gnosOverlap{@}{\color{white}\footnotesize{69}}++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@++@++++++++++]\\
+\char91+@+@+!+++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 69-71)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+jrhoak: Wow.
+jrhoak: The biggest moyo
+Kashomon [1k]: I should have chased the stones
+Younggil [8p]: to enlarge his area, you mean?
+Kashomon [1k]: Yes, that's right
+Younggil [8p]: so
+Younggil [8p]: yea, black's center becomes nice and large
+Kashomon [1k]: I really didn't know how to handle the game once black had a big moyo
+Younggil [8p]: so after this, that's hard for White to do
+Kashomon [1k]: I agree
+Younggil [8p]: normally
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@++++++++++@!!]\\
+\char91+!+++\gnosOverlap{!}{\footnotesize{72}}+++++++@!@+]\\
+\char91++++++@++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+!@++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@++@++++++++++]\\
+\char91+@+@+!+++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Move: 72)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+autumnleaves: still not sure if black should have played for a moyo earlier
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@+++\gnosOverlap{@}{\color{white}\footnotesize{73}}++++++@!!]\\
+\char91+!+++!+++++++@!@+]\\
+\char91++++++@++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+!@++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@++@++++++++++]\\
+\char91+@+@+!+++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Move: 73)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: I spent many days thinking about this move
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@++++++\gnosOverlap{!}{\footnotesize{74}}++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@+++@++++++@!!]\\
+\char91+!+++!+++++++@!@+]\\
+\char91++++++@++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+!@++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@++@++++++++++]\\
+\char91+@+@+!+++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Move: 74)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: oh, i see
+Kashomon [1k]: I couldn't find anything
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++++@!]\\
+\char91+@@@+++@++++++@!!]\\
+\char91+!+++!+++++++@!@+]\\
+\char91++++++@\gnosOverlap{@}{\color{white}\small{2}}\gnosOverlap{!}{\small{1}}++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+!@\gnosOverlap{!}{\small{5}}+\gnosOverlap{!}{\small{3}}+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@++@+\gnosOverlap{@}{\color{white}\small{4}}++++++++]\\
+\char91+@+@+!+++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{73}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: you can try to find Black's weakness
+Younggil [8p]: probably around center area
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@+++++++++++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!+++\gnosOverlap{@}{\color{white}\footnotesize{12}}++++++@!]\\
+\char91+@@@+++@\gnosOverlap{!}{\footnotesize{11}}\gnosOverlap{!}{\footnotesize{13}}++++@!!]\\
+\char91+!+++!+++++++@!@+]\\
+\char91++++++@@!++++++@+]\\
+\char91++++!\gnosOverlap{@}{\color{white}\small{6}}+++++++++++]\\
+\char91+!*+!@!+!+\gnosOverlap{!}{\small{9}}+++@++]\\
+\char91++!+!\gnosOverlap{!}{\small{7}}\gnosOverlap{@}{\color{white}\small{8}}++++++++++]\\
+\char91+@+@++@+@+\gnosOverlap{@}{\color{white}\footnotesize{10}}++++++]\\
+\char91+@+@+!+++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{73}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: try to fight, and live inside
+Younggil [8p]: that's still hard, but more possiblities
+Kashomon [1k]: hey younggil, I have to go for ~5 mins. is that ok?
+Younggil [8p]: the game was alread behind, so white should take a risk
+Younggil [8p]: oh, alright
+Younggil [8p]: any other questions quick
+Younggil [8p]: ?
+Younggil [8p]: before you go
+Younggil [8p]: Josh?
+Kashomon [1k]: Hello
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@\gnosOverlap{@}{\color{white}\footnotesize{77}}\gnosOverlap{!}{\footnotesize{76}}++++!\gnosOverlap{@}{\color{white}\footnotesize{75}}+++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++\gnosOverlap{!}{\footnotesize{78}}+@!]\\
+\char91+@@@+++@++++++@!!]\\
+\char91+!+++!+++++++@!@+]\\
+\char91++++++@++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+!@++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@++@++++++++++]\\
+\char91+@+@+!+++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 75-78)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+xiaodai: thinking out loud. From move 34: D16 E14 D18 E18 E17 
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+!+!!@@!++++!@+++]\\
+\char91+@!+!+++++++@++!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++!\gnosOverlap{@}{\color{white}\footnotesize{79}}@!]\\
+\char91+@@@+++@++++++@!!]\\
+\char91+!+++!+++++++@!@+]\\
+\char91++++++@++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+!@++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@++@++++++++++]\\
+\char91+@+@+!+++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Move: 79)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+autumnleaves: whoops, I thought I was clicking back to game, but I clicked submit
+autumnleaves: maybe this move is ok though anyway
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((\gnosOverlap{@}{\color{white}\footnotesize{81}}(((>\\
+\char91+!+!!@@!++++!@\gnosOverlap{!}{\footnotesize{80}}++]\\
+\char91+@!+!++++++\gnosOverlap{!}{\footnotesize{82}}@\gnosOverlap{@}{\color{white}\footnotesize{83}}+!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++!@@!]\\
+\char91+@@@+++@++++++@!!]\\
+\char91+!+++!+++++++@!@+]\\
+\char91++++++@++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+!@++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@++@++++++++++]\\
+\char91+@+@+!+++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 80-83)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+autumnleaves: White's Daring Invasion
+jrhoak: there aren't any great options now
+jrhoak: your moyo is vast
+Kashomon [1k]: l17 
+Younggil [8p]: probably not easy to live inside
+Kashomon [1k]: no
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((@(((>\\
+\char91+!+!!@@!++\gnosOverlap{!}{\footnotesize{84}}+!@!++]\\
+\char91+@!+!++++\gnosOverlap{@}{\color{white}\footnotesize{85}}+!@@+!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++!@@!]\\
+\char91+@@@+++@++++++@!!]\\
+\char91+!+++!+++++++@!@+]\\
+\char91++++++@++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+!@++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@++@++++++++++]\\
+\char91+@+@+!+++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 84-85)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: hard to live now
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((@(((>\\
+\char91+!+!!@@!++++!@!++]\\
+\char91+@!+!++++\gnosOverlap{!}{\small{1}}+!@@+!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++!@@!]\\
+\char91+@@@+++@++++++@!!]\\
+\char91+!+++!+++++++@!@+]\\
+\char91++++++@++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+!@++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@++@++++++++++]\\
+\char91+@+@+!+++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{83}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: yes, I think so too
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((@(((>\\
+\char91+!+!!@@!++++!@!++]\\
+\char91+@!+!++++!+!@@+!+]\\
+\char91+@!!@@@+*\gnosOverlap{!}{\small{3}}\gnosOverlap{@}{\color{white}\small{2}}\gnosOverlap{@}{\color{white}\small{6}}++@+!]\\
+\char91+@!@!++++\gnosOverlap{!}{\small{7}}\gnosOverlap{!}{\small{5}}++!@@!]\\
+\char91+@@@+++@+\gnosOverlap{@}{\color{white}\small{4}}++++@!!]\\
+\char91+!+++!++++\gnosOverlap{@}{\color{white}\small{8}}++@!@+]\\
+\char91++++++@++++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+!@++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@++@++++++++++]\\
+\char91+@+@+!+++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{83}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: but still hard to live
+Kashomon [1k]: yeah
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((@(((>\\
+\char91+!+!!@@!++!+!@!++]\\
+\char91+@!+!++++@+!@@+!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++!@@!]\\
+\char91+@@@+++@++++++@!!]\\
+\char91+!+++!+++++++@!@+]\\
+\char91++++++@+\gnosOverlap{!}{\footnotesize{86}}++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+!@++*+++++@++]\\
+\char91++!+!++++++++++++]\\
+\char91+@+@++@++++++++++]\\
+\char91+@+@+!+++++++++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!++++++++++++++]\\
+\char91+@@!!+++!+++++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Move: 86)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: but that would have been better shape I think
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((@(((>\\
+\char91+!+!!@@!++!+!@!++]\\
+\char91+@!+!++++@+!@@+!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++!@@!]\\
+\char91+@@@+++@++++++@!!]\\
+\char91+!+++!+++\gnosOverlap{@}{\color{white}\footnotesize{89}}+++@!@+]\\
+\char91+++++\gnosOverlap{@}{\color{white}\footnotesize{87}}@+!++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+!@++*+++++@++]\\
+\char91++!+!+\gnosOverlap{!}{\footnotesize{90}}+\gnosOverlap{!}{\footnotesize{88}}++++++++]\\
+\char91+@+@++@+++\gnosOverlap{@}{\color{white}\footnotesize{97}}++++++]\\
+\char91+@+@+!++++\gnosOverlap{!}{\footnotesize{96}}\gnosOverlap{@}{\color{white}\footnotesize{95}}+++++]\\
+\char91+!++!++++++++++++]\\
+\char91+!!+++++++\gnosOverlap{!}{\footnotesize{94}}\gnosOverlap{@}{\color{white}\footnotesize{93}}+++++]\\
+\char91+@@!!+++!+\gnosOverlap{!}{\footnotesize{92}}\gnosOverlap{@}{\color{white}\footnotesize{91}}++*@+]\\
+\char91+@+@!++++++!+@+++]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 87-97)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: ok
+Younggil [8p]: good
+Kashomon [1k]: I did have a couple of questions
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((@(((>\\
+\char91+!+!!@@!++!+!@!++]\\
+\char91+@!+!++++@+!@@+!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++!@@!]\\
+\char91+@@@+++@++++++@!!]\\
+\char91+!+++!+++@+++@!@\gnosOverlap{@}{\color{white}\small{3}}]\\
+\char91+++++@@+!++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+!@++*+++++@+\gnosOverlap{!}{\small{2}}]\\
+\char91++!+!+!+!++\gnosOverlap{@}{\color{white}\footnotesize{99}}+++++]\\
+\char91+@+@++@+++@++++++]\\
+\char91+@+@+!+++\gnosOverlap{!}{\footnotesize{98}}!@+++\gnosOverlap{@}{\color{white}\small{5}}+]\\
+\char91+!++!++++++++++++]\\
+\char91+!!+++++++!@+++\gnosOverlap{!}{\small{4}}+]\\
+\char91+@@!!+++!+!@++*@{\gnoswi\char0}]\\
+\char91+@+@!++++++!+@+\gnosOverlap{@}{\color{white}\small{1}}+]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 98-105)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: Anyway, I resigned here
+Younggil [8p]: yea
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((@(((>\\
+\char91+!+!!@@!++!+!@!++]\\
+\char91+@!+!++++@+!@@+!+]\\
+\char91+@!!@@@+*+++++@+!]\\
+\char91+@!@!++++++++!@@!]\\
+\char91+@@@+++@++++++@!!]\\
+\char91+!+++!+++@+++@!@@]\\
+\char91+++++@@+!++++++@+]\\
+\char91++++!++++++++++++]\\
+\char91+!*+!@++*+++++@+!]\\
+\char91++!+!+!+!++@+++++]\\
+\char91+@+@++@+++@++++++]\\
+\char91+@+@+!+++!!@+++@\gnosOverlap{!}{\small{6}}]\\
+\char91+!++!++++++++++++]\\
+\char91+!!+++++++!@+++!+]\\
+\char91+@@!!+++!+!@++*@!]\\
+\char91+@+@!++++++!+@+@+]\\
+\char91@++@!++++++++++++]\\
+,)@@)))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Move: 106)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: I was white in this game
+Kashomon [1k]: just finished
+Kashomon [1k]: sorry for the delay
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++@+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Move: 1)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+taqxyn [2d]: hi
+Kashomon [1k]: hi, gg
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++@+++++*+++++*\gnosOverlap{!}{\small{1}}+]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Move: 1)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: let's have a look
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++\gnosOverlap{@}{\color{white}\small{2}}++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++\gnosOverlap{@}{\color{white}\small{6}}++++++++++++++]\\
+\char91++++\gnosOverlap{!}{\small{5}}++++++++++++]\\
+\char91++@+++++*+++++*!+]\\
+\char91++++\gnosOverlap{!}{\small{3}}+\gnosOverlap{@}{\color{white}\small{4}}++++++++++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 2-6)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: pincer from the bottom?
+Younggil [8p]: K3 or L3 instead
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+\gnosOverlap{!}{\small{7}}++++++++++]\\
+\char91++@+++++*+++++*!+]\\
+\char91++++!+@++++++++++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Move: 7)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: This seemed like a weird move
+Kashomon [1k]: is this joseki?
+Younggil [8p]: no
+Kashomon [1k]: I've never seen it before
+Kashomon [1k]: well, maybe. but not in a long time
+Younggil [8p]: black was confortable in this opening, did you feel so?
+Kashomon [1k]: Yes, I thought so
+Younggil [8p]: white normally plays J4 or pincer from the bottom instead
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!++++++++++++]\\
+\char91++@+++++*+++++*!+]\\
+\char91++++!+@+\gnosOverlap{!}{\small{1}}++++++++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\small{6}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: yes
+Kashomon [1k]: I don't know this variation
+Younggil [8p]: to develop the bottom, whilte Black can White jump towards the center together
+Kashomon [1k]: Can you show me?
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91++++\gnosOverlap{!}{\small{9}}++++++++++++]\\
+\char91++\gnosOverlap{@}{\color{white}\small{6}}++++++++++++++]\\
+\char91++++\gnosOverlap{!}{\small{5}}++++++++++++]\\
+\char91++@++++\gnosOverlap{@}{\color{white}\small{4}}\gnosOverlap{@}{\color{white}\footnotesize{10}}++++++++]\\
+\char91++++!++\gnosOverlap{@}{\color{white}\small{8}}\gnosOverlap{!}{\small{7}}++++++++]\\
+\char91++@++++\gnosOverlap{@}{\color{white}\small{2}}\gnosOverlap{!}{\small{3}}+++++*!+]\\
+\char91++++!+@+!++++++++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\small{6}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: something like this
+Kashomon [1k]: Is this a handicap joseki?
+Younggil [8p]: hmm, no
+Younggil [8p]: just playable for both
+Kashomon [1k]: I see, thanks
+Younggil [8p]: in general, black's position is slightly better
+Younggil [8p]: this is better for the handicap game
+Younggil [8p]: black might feel uncomfortable or uneasy with the lower side group
+Younggil [8p]: because they're still weak and baseless
+Kashomon [1k]: Would White follow up with L6 or D10 here?
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91++++!++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!++++\gnosOverlap{@}{\color{white}\footnotesize{12}}+++++++]\\
+\char91++@++++@@\gnosOverlap{!}{\footnotesize{11}}\gnosOverlap{!}{\footnotesize{13}}++++++]\\
+\char91++++!++@!++++++++]\\
+\char91++@++++@!+++++*!+]\\
+\char91++++!+@+!++++++++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\small{6}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: probably here
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+\gnosOverlap{@}{\color{white}\footnotesize{14}}+++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++\gnosOverlap{!}{\footnotesize{11}}\gnosEmptyLbl{\small{C}}\gnosEmptyLbl{\small{D}}+++*+++++*++]\\
+\char91+++\gnosEmptyLbl{\small{B}}!++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!++++++++++++]\\
+\char91++@++++@@+\gnosOverlap{@}{\color{white}\footnotesize{12}}++++++]\\
+\char91++++!++@!++++++++]\\
+\char91++@++++@!++++\gnosOverlap{!}{\footnotesize{13}}*!+]\\
+\char91++++!+@+!++++++++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\small{6}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: because there's nothing special after A
+Kashomon [1k]: I see
+Younggil [8p]: and Black can still cut off White with B to D later
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91++\gnosOverlap{!}{\small{7}}++++\gnosOverlap{@}{\color{white}\small{6}}+++++++++]\\
+\char91++++\gnosOverlap{!}{\small{5}}++++++++++++]\\
+\char91++@++++\gnosOverlap{@}{\color{white}\small{4}}+++++++++]\\
+\char91++++!++++++++++++]\\
+\char91++@++++\gnosOverlap{@}{\color{white}\small{2}}\gnosOverlap{!}{\small{3}}+++++*!+]\\
+\char91++++!+@+!++++++++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\small{6}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: this is different
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91++\gnosOverlap{!}{\small{9}}++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91++!++++@+++++++++]\\
+\char91++++!++++++++++++]\\
+\char91++@++++@+++++++++]\\
+\char91++++!++++++++++++]\\
+\char91++@++++@!+++++*!+]\\
+\char91++++!+@+!++++++++]\\
+\char91++\gnosOverlap{@}{\color{white}\small{8}}++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\small{6}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: like this
+Kashomon [1k]: I see
+Kashomon [1k]: Well, I think that's all the questions from this game that I have
+Younggil [8p]: good, it was a nice game
+Younggil [8p]: you could get a better result in the opening though :)
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++\gnosOverlap{@}{\color{white}\small{A}}++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+\gnosOverlap{!}{\small{3}}++++++++++]\\
+\char91++@+++\gnosOverlap{@}{\color{white}\small{2}}\gnosOverlap{!}{\small{1}}\gnosOverlap{!}{\small{5}}\gnosOverlap{!}{\small{7}}++++*!+]\\
+\char91++++!+@\gnosOverlap{@}{\color{white}\small{4}}\gnosOverlap{@}{\color{white}\small{6}}+\gnosOverlap{@}{\color{white}\small{8}}++++++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\small{6}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: I've seen this many times
+Younggil [8p]: this is normal joseki, but that's bad in handicap games
+Kashomon [1k]: why?
+Younggil [8p]: now, because of A, White can't develop his right side easily
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!++++++++++]\\
+\char91++@+++@!!!++++*!+]\\
+\char91++++!+@@@+@++++++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\small{6}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: normally 
+Younggil [8p]: the color is swapped
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!++++\gnosOverlap{!}{\footnotesize{10}}+++++]\\
+\char91++@+++@!!!++++*!+]\\
+\char91++++!+@@@+@++++++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\small{6}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: and White plays like this
+Younggil [8p]: and White has a good position on the right side
+Younggil [8p]: with some potential in the center
+Younggil [8p]: but
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*\gnosOverlap{@}{\color{white}\footnotesize{10}}+]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!\gnosOverlap{!}{\footnotesize{11}}!++++\gnosOverlap{!}{\small{9}}+++++]\\
+\char91++@+++@!!!++++*!+]\\
+\char91++++!+@@@+@+\gnosOverlap{@}{\color{white}\footnotesize{12}}++++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\small{6}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: so, that's a bit too easy for Black
+Kashomon [1k]: ah
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91++\gnosOverlap{@}{\color{white}\footnotesize{10}}++++++++++++++]\\
+\char91++++\gnosOverlap{!}{\small{9}}++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!+\gnosOverlap{@}{\color{white}\footnotesize{12}}++++++++]\\
+\char91++@+++++*+++++*!+]\\
+\char91++++!+@+\gnosOverlap{@}{\color{white}\small{8}}++\gnosOverlap{!}{\footnotesize{11}}+++++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 8-12)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: good as well
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!++++++++++]\\
+\char91++@+++++*+++++*!+]\\
+\char91++++!+@++\gnosOverlap{@}{\color{white}\small{1}}+++++++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\small{7}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: this is also possible
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!++\gnosOverlap{@}{\color{white}\small{3}}+++++++]\\
+\char91++@+++++*+++++*!+]\\
+\char91++++!+@++@+\gnosOverlap{!}{\small{2}}+++++]\\
+\char91+++++++++++++++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\small{7}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: I was trying to avoid J2
+Younggil [8p]: like this
+Younggil [8p]: i see
+Younggil [8p]: alright
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+++\gnosOverlap{!}{\footnotesize{13}}++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!+@++\gnosOverlap{@}{\color{white}\footnotesize{14}}+++++]\\
+\char91++@+++++*++\gnosEmptyLbl{\small{B}}+\gnosOverlap{!}{\footnotesize{15}}*!+]\\
+\char91++++!+@+@+\gnosOverlap{@}{\color{white}\footnotesize{16}}!\gnosEmptyLbl{\small{A}}++++]\\
+\char91++++++++++\gnosOverlap{!}{\footnotesize{17}}\gnosEmptyLbl{\small{C}}+++++]\\
+,))))))))))))))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 13-17)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: perfect so far
+Younggil [8p]: and there's a nice tesuji 
+Younggil [8p]: what can black do now?
+Kashomon [1k]: Let's see
+Kashomon [1k]: The first think that comes to mind is C
+Younggil [8p]: ok, then?
+Kashomon [1k]: But I can't seem to make it work
+Younggil [8p]: you can control
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++\gnosOverlap{!}{\footnotesize{25}}+]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+++!++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!+@++@+++++]\\
+\char91++@+++++*+\gnosOverlap{!}{\footnotesize{19}}\gnosOverlap{!}{\footnotesize{21}}+!*!+]\\
+\char91++++!+@+@\gnosOverlap{@}{\color{white}\footnotesize{20}}@!+++++]\\
+\char91+++++++++\gnosOverlap{@}{\color{white}\footnotesize{18}}!\gnosOverlap{@}{\color{white}\footnotesize{22}}\gnosOverlap{!}{\footnotesize{23}}++++]\\
+,))))))))))\gnosOverlap{@}{\color{white}\footnotesize{24}})))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 18-25)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: ok
+Kashomon [1k]: oh
+Kashomon [1k]: It's not
+Younggil [8p]: white has sente now :)
+Kashomon [1k]: because White has a stone at O2
+Kashomon [1k]: O31
+Younggil [8p]: Not O3
+Kashomon [1k]: yup, O3
+Younggil [8p]: the result up to here was successful for White
+Younggil [8p]: black's still alright though
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+++!++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!+@++@+++++]\\
+\char91++@+++++*++++!*!+]\\
+\char91++++!+@+@+@!+++++]\\
+\char91++++++++++!\gnosOverlap{@}{\color{white}\small{1}}+++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{17}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: black can cut that in sente
+Younggil [8p]: yes
+Younggil [8p]: with this cut
+Kashomon [1k]: I should study my tesuji!
+Younggil [8p]: this is a common tesuji, so if you can remember this, that'll be helpful :)
+Younggil [8p]: good
+Younggil [8p]: any other questions do you have?
+Kashomon [1k]: nope. We only have ~8 minutes. Want to end early?
+Younggil [8p]: that'd be fine
+Younggil [8p]: I'm going to talk to David for ordering things 
+Kashomon [1k]: alright, well thank you for the lessosn!
+Younggil [8p]: you're welcome
+Kashomon [1k]: Sounds tricky! good luck
+Younggil [8p]: thanks! :)
+Younggil [8p]: have a nice evening and talk to you more later!
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+++!++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!+@++@+++++]\\
+\char91++@+++++*+\gnosOverlap{!}{\small{2}}\gnosOverlap{@}{\color{white}\small{5}}+!*!+]\\
+\char91++++!+@+@\gnosOverlap{@}{\color{white}\small{3}}@!+++++]\\
+\char91++++++++++!@\gnosOverlap{!}{\small{4}}++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{17}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: yes, good
+Kashomon [1k]: Oh that's probably sufficient
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+++!++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!+@++@+++++]\\
+\char91++@+++++*++++!*!+]\\
+\char91++++!+@+@+@!\gnosOverlap{!}{\small{2}}++++]\\
+\char91++++++++++!@+++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{17}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: capture the stone
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+++!++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!+@++@+++++]\\
+\char91++@+++++*+\gnosOverlap{!}{\small{4}}++!*!+]\\
+\char91++++!+@+@\gnosOverlap{@}{\color{white}\small{5}}@!!++++]\\
+\char91+++++++++\gnosOverlap{@}{\color{white}\small{3}}!@+++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{17}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: take it out
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+++!++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!+@++@+++++]\\
+\char91++@+++++*+!\gnosOverlap{!}{\small{8}}+!*!+]\\
+\char91++++!+@+@@@!!++++]\\
+\char91+++++++++@!@\gnosOverlap{!}{\small{6}}++++]\\
+,))))))))))\gnosOverlap{@}{\color{white}\small{7}})))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{17}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: black has sente
+Kashomon [1k]: hm
+Younggil [8p]: or
+Kashomon [1k]: this seems to be similar to the game
+Kashomon [1k]: In this variation I mean
+Younggil [8p]: when you're being attacked
+Younggil [8p]: cross cut is a good idea
+Kashomon [1k]: That's slick
+Younggil [8p]: can I control please?
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+++!++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!+@++@+++++]\\
+\char91++@+++++*+\gnosOverlap{!}{\small{4}}++!*!+]\\
+\char91++++!+@+@+@!!++++]\\
+\char91+++++++++\gnosOverlap{@}{\color{white}\small{3}}!@+++++]\\
+,))))))))))\gnosOverlap{@}{\color{white}\small{5}})))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{17}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: black can even take it now
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+++!++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!+@++@+++++]\\
+\char91++@+++++*+!\gnosOverlap{!}{\small{6}}+!*!+]\\
+\char91++++!+@+@+@!!++++]\\
+\char91+++++++++@+@+\gnosEmptyLbl{\small{A}}+++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{17}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: White won't connect
+Younggil [8p]: and that's better for the endgame
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++\gnosOverlap{!}{\small{6}}++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+++!++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!+@++@+++++]\\
+\char91++@+++++*+!\gnosOverlap{@}{\color{white}\small{7}}+!*!+]\\
+\char91++++!+@+@\gnosEmptyLbl{\small{B}}@!!++++]\\
+\char91+++++++++@+@+++++]\\
+,))))))))))\gnosOverlap{@}{\color{white}\small{A}})))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{17}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: this is very good for Black
+Younggil [8p]: and A is better than B anyway
+Kashomon [1k]: I see
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+++!++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!+@++@+++++]\\
+\char91++@+++++*+\gnosOverlap{@}{\color{white}\small{3}}++!*!+]\\
+\char91++++!+@+@+@!!++++]\\
+\char91++++++++++!@+++++]\\
+,))))))))))))))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{17}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: no
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++*++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+++!++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+!+@++@+++++]\\
+\char91++@+++++*++\gnosOverlap{@}{\color{white}\small{3}}+!*!+]\\
+\char91++++!+@+@+@!\gnosOverlap{!}{\small{4}}++++]\\
+\char91+++++++++\gnosOverlap{@}{\color{white}\small{5}}!@\gnosOverlap{!}{\small{2}}++++]\\
+,)))))))))))\gnosOverlap{!}{\small{6}}))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{17}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: this is normal for White
+Younggil [8p]: and Black has sente
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@+++++++++\gnosOverlap{@}{\color{white}\footnotesize{26}}++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++\gnosOverlap{!}{\footnotesize{27}}++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++++++++]\\
+\char91++++!+++!\gnosOverlap{!}{\footnotesize{29}}+++++++]\\
+\char91++@++++++\gnosOverlap{@}{\color{white}\footnotesize{28}}\gnosOverlap{@}{\color{white}\footnotesize{30}}++++++]\\
+\char91++++!+!+@++@+++++]\\
+\char91++@+++++*+!!+!*!+]\\
+\char91++++!+@+@@@!+++++]\\
+\char91+++++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 26-30)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: good moves!
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@+++++++++@++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++!++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++\gnosOverlap{!}{\footnotesize{31}}+++++]\\
+\char91++++!+++!!+++++++]\\
+\char91++@++++++@@++++++]\\
+\char91++++!+!+@++@+\gnosOverlap{@}{\color{white}\footnotesize{32}}+++]\\
+\char91++@+++++*+!!+!*!+]\\
+\char91++++!+@+@@@!+++++]\\
+\char91+++++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 31-32)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: this was a bit too early
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@+++++++++@++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++\gnosOverlap{@}{\color{white}\small{1}}+]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++!++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++!+++++]\\
+\char91++++!+++!!+++++++]\\
+\char91++@++++++@@++++++]\\
+\char91++++!+!+@++@+++++]\\
+\char91++@+++++*+!!+!*!+]\\
+\char91++++!+@+@@@!+++++]\\
+\char91+++++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{31}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: how about invading here?
+Kashomon [1k]: Ah, that would be nice timing
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@+++++++++@++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++@+]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++++!\gnosOverlap{!}{\small{2}}+]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++!+++++]\\
+\char91++++!+++!!+++++++]\\
+\char91++@++++++@@++\gnosOverlap{@}{\color{white}\small{5}}+++]\\
+\char91++++!+!+@++@+\gnosOverlap{@}{\color{white}\small{3}}\gnosOverlap{!}{\small{4}}++]\\
+\char91++@+++++*+!!+!*!+]\\
+\char91++++!+@+@@@!+++++]\\
+\char91+++++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{31}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: if white answers at R10, Black can still play here later
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@+++++++++@++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91++++++++++++++\gnosOverlap{!}{\small{6}}++]\\
+\char91++++++++++++++\gnosOverlap{!}{\small{2}}@+]\\
+\char91+++++++++++++\gnosOverlap{!}{\small{4}}\gnosOverlap{@}{\color{white}\small{3}}\gnosOverlap{@}{\color{white}\small{5}}+]\\
+\char91++*+++++*+++++!\gnosOverlap{@}{\color{white}\small{7}}+]\\
+\char91++++++++++++++\gnosOverlap{!}{\small{8}}++]\\
+\char91++@++++++++!+++\gnosOverlap{@}{\color{white}\small{9}}+]\\
+\char91++++!+++!!+++++++]\\
+\char91++@++++++@@++++++]\\
+\char91++++!+!+@++@+++++]\\
+\char91++@+++++*+!!+!*!+]\\
+\char91++++!+@+@@@!+++++]\\
+\char91+++++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{31}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: successful fol black
+Younggil [8p]: black can live like this
+Younggil [8p]: yea
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@+++++++++@++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++\gnosOverlap{!}{\footnotesize{39}}+!++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++!+\gnosOverlap{@}{\color{white}\footnotesize{36}}+++]\\
+\char91++++!+++!!+++\gnosOverlap{@}{\color{white}\footnotesize{38}}\gnosOverlap{!}{\footnotesize{37}}++]\\
+\char91++@++++++@@++\gnosOverlap{@}{\color{white}\footnotesize{34}}\gnosOverlap{!}{\footnotesize{35}}++]\\
+\char91++++!+!+@++@+@\gnosOverlap{!}{\footnotesize{33}}++]\\
+\char91++@+++++*+!!+!*!+]\\
+\char91++++!+@+@@@!+++++]\\
+\char91+++++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 33-39)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: and white is happy with the territory on the right
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@+++++++++@++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91+\gnosOverlap{@}{\color{white}\footnotesize{42}}+++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++!+@\gnosOverlap{@}{\color{white}\footnotesize{40}}\gnosOverlap{!}{\footnotesize{41}}+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91++@+++++*+!!+!*!+]\\
+\char91++++!+@+@@@!+++++]\\
+\char91+++++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 40-42)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: by the way, this move is interesting!
+Younggil [8p]: seems to be good balanced :)
+Kashomon [1k]: thanks
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<(((((((((((((((((>\\
+\char91+++++++++++++++++]\\
+\char91++@++++\gnosOverlap{!}{\footnotesize{43}}++++@++++]\\
+\char91++*+++++*+++++@++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91+@+++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91++@+++++*+!!+!*!+]\\
+\char91++++!+@+@@@!+++++]\\
+\char91+++++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Move: 43)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: yes, the stones are on the 4th line
+Younggil [8p]: yea
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((\gnosOverlap{@}{\color{white}\footnotesize{54}}((((((((((((((>\\
+\char91+\gnosOverlap{@}{\color{white}\footnotesize{50}}\gnosOverlap{!}{\footnotesize{47}}\gnosOverlap{@}{\color{white}\footnotesize{48}}\gnosOverlap{!}{\footnotesize{53}}++++++++++++]\\
+\char91+\gnosOverlap{@}{\color{white}\footnotesize{52}}@\gnosOverlap{!}{\footnotesize{49}}\gnosOverlap{!}{\footnotesize{45}}++!+\gnosOverlap{@}{\color{white}\footnotesize{44}}++@++++]\\
+\char91++\gnosOverlap{!}{\footnotesize{51}}+++++*+++++@++]\\
+\char91++\gnosOverlap{@}{\color{white}\footnotesize{46}}++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91+@+++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91++@+++++*+!!+!*!+]\\
+\char91++++!+@+@@@!+++++]\\
+\char91+++++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 44-54)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: good
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!++++++++++++]\\
+\char91+@@!!++!+@++@++++]\\
+\char91++!+++++*+++++@++]\\
+\char91++@++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91+@+++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+\gnosOverlap{@}{\color{white}\footnotesize{58}}@+++++*+!!+!*!+]\\
+\char91+\gnosOverlap{!}{\footnotesize{55}}\gnosOverlap{@}{\color{white}\footnotesize{56}}+!+@+@@@!+++++]\\
+\char91++\gnosOverlap{!}{\footnotesize{57}}++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 55-58)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: right direction
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!++++++++++++]\\
+\char91+@@!!++!+@++@++++]\\
+\char91++!\gnosOverlap{@}{\color{white}\footnotesize{62}}++++*+++++@++]\\
+\char91++@++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91+@+++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91\gnosOverlap{@}{\color{white}\footnotesize{60}}!@+!+@+@@@!+++++]\\
+\char91\gnosOverlap{!}{\footnotesize{59}}\gnosOverlap{!}{\footnotesize{61}}!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 59-62)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: this is also thick and safe
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!++++++++++++]\\
+\char91+@@!!++!+@++@++++]\\
+\char91++!+++++*+++++@++]\\
+\char91++@++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91+@+++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91++++\gnosOverlap{@}{\color{white}\small{1}}++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{61}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: this is also a good place
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!++++++++++++]\\
+\char91+@@!!++!+@++@++++]\\
+\char91+\gnosOverlap{!}{\small{2}}!\gnosOverlap{@}{\color{white}\small{3}}++++*+++++@++]\\
+\char91++@++++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91+@+++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91++++@++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{61}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: and white can't fight like this
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!++++++++++++]\\
+\char91+@@!!++!+@++@++++]\\
+\char91++!@\gnosOverlap{!}{\footnotesize{63}}+++*+++++@++]\\
+\char91++@\gnosOverlap{@}{\color{white}\footnotesize{64}}+++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91+@+++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91+++++++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 63-64)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: you thought the game was still good for you, right?
+Kashomon [1k]: Yes, I thought it was going alright
+Younggil [8p]: good
+Younggil [8p]: the game seems to be still better for Black
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!++++++++++++]\\
+\char91+@@!!++!+@++@++\gnosOverlap{@}{\color{white}\footnotesize{66}}\gnosOverlap{!}{\footnotesize{67}}]\\
+\char91++!@!+++*+++++@+\gnosOverlap{!}{\footnotesize{65}}]\\
+\char91++@@+++++++++++++]\\
+\char91+++++++++++++++!+]\\
+\char91+@+++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91++++\gnosOverlap{@}{\color{white}\footnotesize{68}}++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 65-68)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: very good
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!++++++++++++]\\
+\char91+@@!!++!+@++@++@!]\\
+\char91++!@!+++*+++++@+!]\\
+\char91++@@+++++++++++++]\\
+\char91+++++\gnosOverlap{!}{\footnotesize{69}}+++++++++!+]\\
+\char91+@++\gnosOverlap{@}{\color{white}\footnotesize{70}}++++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++++\gnosOverlap{!}{\footnotesize{71}}++++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91++++@++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 69-71)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: this is a good move to reduce black's area
+Younggil [8p]: and Black should also try to gain some points for compensation
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!++++++++++++]\\
+\char91+@@!!++!+@++@++@!]\\
+\char91++!@!+++*+++++@+!]\\
+\char91++@@+++++++++++++]\\
+\char91+++++!+++++++++!+]\\
+\char91+@++@\gnosOverlap{@}{\color{white}\footnotesize{72}}+++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++++!+\gnosOverlap{!}{\footnotesize{73}}++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91++++@++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 72-73)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: yeah
+Kashomon [1k]: oh
+Younggil [8p]: here?
+Kashomon [1k]: I mean
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+++\gnosOverlap{@}{\color{white}\footnotesize{74}}++++++++]\\
+\char91+@@!!++!+@++@++@!]\\
+\char91++!@!+++*\gnosOverlap{!}{\footnotesize{75}}++++@+!]\\
+\char91++@@+++++++++++++]\\
+\char91+++++!+++++++++!+]\\
+\char91+@++@@+++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++++!+!++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91++++@++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 74-75)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: too early for that
+Kashomon [1k]: yeah
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!++++++++++++]\\
+\char91+@@!!++!+@++@++@!]\\
+\char91++!@!+++*+++++@+!]\\
+\char91++@@+++++++++++++]\\
+\char91+++++!\gnosOverlap{@}{\color{white}\small{1}}++++++++!+]\\
+\char91+@++@@+++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++++!+!++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91++++@++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{73}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: this is also possible
+Kashomon [1k]: Ah
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!++++++++++++]\\
+\char91+@@!!++!+@++@++@!]\\
+\char91++!@!+++\gnosOverlap{!}{\small{2}}\gnosOverlap{@}{\color{white}\small{3}}++++@+!]\\
+\char91++@@+++++++++++++]\\
+\char91+++++!@+\gnosOverlap{!}{\small{4}}++++++!+]\\
+\char91+@++@@+++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++\gnosOverlap{@}{\color{white}\small{5}}!+!++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91++++@++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{73}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: like this
+Kashomon [1k]: I realized at this stage that for White to win
+Kashomon [1k]: White needed to make points in the center
+Younggil [8p]: right
+Younggil [8p]: so black'd better reduce the center
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!++++++++++++]\\
+\char91+@@!!++!+@++@++@!]\\
+\char91++!@!+++\gnosOverlap{!}{\small{2}}\gnosOverlap{@}{\color{white}\small{3}}++++@+!]\\
+\char91++@@++++\gnosOverlap{!}{\small{6}}\gnosOverlap{@}{\color{white}\small{5}}+++++++]\\
+\char91+++++!@+\gnosOverlap{!}{\small{4}}++++++!+]\\
+\char91+@++@@+++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++++!+!++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91++++@++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{73}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: this is good enough
+Younggil [8p]: since black was already in the lead
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!++++++++++++]\\
+\char91+@@!!++!+@++@++@!]\\
+\char91++!@!+++!@++++@+!]\\
+\char91++@@++++!@+++++++]\\
+\char91+++++!@+!++++++!+]\\
+\char91+@++@@+++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++\gnosOverlap{@}{\color{white}\small{7}}!+!++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91++++@++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{73}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: so this would be the best
+Younggil [8p]: the game would still be close though
+Kashomon [1k]: I see, that makes sense
+Younggil [8p]: any other questions in this game?
+Kashomon [1k]: hm
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+++@++++++++]\\
+\char91+@@!!++!\gnosOverlap{@}{\color{white}\footnotesize{76}}@++@++@!]\\
+\char91++!@!++\gnosOverlap{@}{\color{white}\footnotesize{78}}\gnosOverlap{!}{\footnotesize{77}}!++++@+!]\\
+\char91++@@+++++++++++++]\\
+\char91+++++!+++++++++!+]\\
+\char91+@++@@+++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++++!+!++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91++++@++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 76-78)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: this was a mistake
+Younggil [8p]: wow
+Younggil [8p]: oh, because they are captured?
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+++@+\gnosOverlap{@}{\color{white}\small{3}}++++++]\\
+\char91+@@!!++!\gnosOverlap{!}{\small{2}}@++@++@!]\\
+\char91++!@!+++*!\gnosOverlap{@}{\color{white}\small{1}}+++@+!]\\
+\char91++@@+++++\gnosOverlap{!}{\small{4}}\gnosOverlap{@}{\color{white}\small{5}}++++++]\\
+\char91+++++!+++\gnosOverlap{!}{\small{6}}+++++!+]\\
+\char91+@++@@+++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++\gnosOverlap{@}{\color{white}\small{7}}!+!++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91++++@++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{75}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: this would have been fine
+Younggil [8p]: that'd be just ok with this
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+++@++++++++]\\
+\char91+@@!!+\gnosOverlap{!}{\footnotesize{81}}!@@++@++@!]\\
+\char91++!@!+\gnosOverlap{@}{\color{white}\footnotesize{80}}@!!\gnosOverlap{!}{\footnotesize{83}}+++@+!]\\
+\char91++@@+++\gnosOverlap{!}{\footnotesize{79}}+++++++++]\\
+\char91+++++!+++++++++!+]\\
+\char91+@++@@+\gnosOverlap{@}{\color{white}\footnotesize{82}}\gnosOverlap{@}{\color{white}\footnotesize{86}}\gnosOverlap{@}{\color{white}\footnotesize{84}}+++++++]\\
+\char91++++++++\gnosOverlap{!}{\footnotesize{85}}++++++++]\\
+\char91++\gnosOverlap{!}{\footnotesize{87}}+!+!++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91++++@++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 79-87)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: oh
+Younggil [8p]: black lost a lot of points here
+Kashomon [1k]: now the game is uncertain
+Younggil [8p]: right
+Younggil [8p]: so did you start to attack White's top group?
+Kashomon [1k]: yup =)
+Younggil [8p]: good :)
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+++@++++++++]\\
+\char91+@@!!+!!@@++@++@!]\\
+\char91++!@!+@@!!\gnosOverlap{@}{\color{white}\small{1}}+++@+!]\\
+\char91++@@++\gnosOverlap{!}{\small{2}}!++\gnosOverlap{@}{\color{white}\small{3}}++++++]\\
+\char91+++++!+++++++++!+]\\
+\char91+@++@@+++++++++++]\\
+\char91+++++++++++++++++]\\
+\char91++++!+!++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91++++@++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{81}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: this would be better still
+Kashomon [1k]: I guess at this stage E11 is still open
+Younggil [8p]: right
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+++@++++++++]\\
+\char91+@@!!+!!@@++@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@+++!+++++++++]\\
+\char91+++++!+++++++++!+]\\
+\char91+@++@@+@+++++++++]\\
+\char91+++++++++++++++++]\\
+\char91+++\gnosOverlap{@}{\color{white}\small{1}}!+!++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91++++@++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{83}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: black should block here by the way
+Younggil [8p]: that's very big
+Younggil [8p]: and White's center is still open
+Kashomon [1k]: that makes sense
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+++@++++++++]\\
+\char91+@@!!+!!@@++@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@+++!+++++++++]\\
+\char91+++++!+++++++++!+]\\
+\char91+@++@@+@@@+++++++]\\
+\char91++++++++!++++++++]\\
+\char91+\gnosOverlap{@}{\color{white}\footnotesize{88}}!+!+!++++++++++]\\
+\char91++*+++++*+++!+!++]\\
+\char91++++@++++++++++++]\\
+\char91++@++++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Move: 88)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: not yet
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+++@++++++++]\\
+\char91+@@!!+!!@@++@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@+++!+++++++++]\\
+\char91+++++!+++++++++!+]\\
+\char91+@++@@+@@@+++++++]\\
+\char91++++++++!++++++++]\\
+\char91+@!+!+!++++++++++]\\
+\char91+\gnosOverlap{@}{\color{white}\footnotesize{90}}\gnosOverlap{!}{\footnotesize{89}}+++++*+++!+!++]\\
+\char91++\gnosOverlap{!}{\footnotesize{91}}+@++++++++++++]\\
+\char91+\gnosOverlap{@}{\color{white}\footnotesize{92}}@\gnosOverlap{!}{\footnotesize{93}}+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 89-93)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: now
+Younggil [8p]: i see
+Younggil [8p]: now you should do :)
+Younggil [8p]: not easy actually
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+\gnosOverlap{@}{\color{white}\footnotesize{94}}+@++++++++]\\
+\char91+@@!!+!!@@++@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@+++!+++++++++]\\
+\char91+++++!+++++++++!+]\\
+\char91+@++@@+@@@+++++++]\\
+\char91++++++++!++++++++]\\
+\char91+@!+!+!++++++++++]\\
+\char91+@!+++++*+++!+!++]\\
+\char91++!+@++++++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Move: 94)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: if you were white, where'd you play?
+Kashomon [1k]: h15 
+Kashomon [1k]: after this
+Kashomon [1k]: instead of this?
+Younggil [8p]: hmm
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+++@++++++++]\\
+\char91+@@!!+!!@@++@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@+++!+++++++++]\\
+\char91+++++!++++++++\gnosOverlap{@}{\color{white}\small{3}}!+]\\
+\char91+@++@@+@@@++++\gnosOverlap{@}{\color{white}\small{5}}\gnosOverlap{!}{\small{4}}+]\\
+\char91++++++++!++++++++]\\
+\char91+@!+!+!++++++\gnosOverlap{@}{\color{white}\small{1}}+++]\\
+\char91+@!+++++*+++!\gnosOverlap{!}{\small{2}}!++]\\
+\char91++!+@++++++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{93}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: giving up those two stones made things hard
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+++@++++++++]\\
+\char91+@@!!+!!@@++@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@+++!+++++++++]\\
+\char91+++++!++++++++@!+]\\
+\char91+@++@@+@@@++++@!+]\\
+\char91++++++++!++++\gnosOverlap{@}{\color{white}\small{7}}\gnosOverlap{!}{\small{6}}++]\\
+\char91+@!+!+!++++++@\gnosOverlap{!}{\small{8}}++]\\
+\char91+@!+++++*+++!!!++]\\
+\char91++!+@++++++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{93}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: yes right
+Younggil [8p]: hard to capture the group
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+@+@++++++++]\\
+\char91+@@!!\gnosOverlap{!}{\footnotesize{95}}!!@@++@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@+++!+++++++++]\\
+\char91+++++!+++++++++!+]\\
+\char91+@++@@+@@@+++++++]\\
+\char91++++++++!++++++++]\\
+\char91+@!+!+!++++++++++]\\
+\char91+@!+++++*+++!+!++]\\
+\char91++!+@++++++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Move: 95)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: Here
+Younggil [8p]: now?
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+@+@++++++++]\\
+\char91+@@!!+!!@@++@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@++\gnosOverlap{!}{\small{1}}!+++++++++]\\
+\char91+++++!+++++++++!+]\\
+\char91+@++@@+@@@+++++++]\\
+\char91++++++++!++++++++]\\
+\char91+@!+!+!++++++++++]\\
+\char91+@!+++++*+++!+!++]\\
+\char91++!+@++++++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{94}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: right, White's alive
+Younggil [8p]: and that's hard to chase
+Kashomon [1k]: hm
+Kashomon [1k]: really?
+Younggil [8p]: yea
+Kashomon [1k]: let's see
+Younggil [8p]: nearly
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!\gnosEmptyLbl{\small{A}}@\gnosOverlap{@}{\color{white}\small{2}}@++++++++]\\
+\char91+@@!!+!!@@++@++@!]\\
+\char91++!@!\gnosOverlap{!}{\small{3}}@@!!!+++@+!]\\
+\char91++@@\gnosEmptyLbl{\small{B}}+!!+++++++++]\\
+\char91+++++!++\gnosEmptyLbl{\small{C}}++++++!+]\\
+\char91+@++@@+@@@+++++++]\\
+\char91++++++++!++++++++]\\
+\char91+@!+!+!++++++++++]\\
+\char91+@!+++++*+++!+!++]\\
+\char91++!+@++++++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{94}}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: oh yeah
+Younggil [8p]: yea :)
+Younggil [8p]: right
+Kashomon [1k]: because of 
+Kashomon [1k]: hm
+Kashomon [1k]: oops
+Kashomon [1k]: haha
+Younggil [8p]: :), east to misread
+Younggil [8p]: easy*
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+@+@++++++++]\\
+\char91+@@!!!!!@@++@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@+++!+++++++++]\\
+\char91+++++!++++++++\gnosOverlap{@}{\color{white}\footnotesize{96}}!+]\\
+\char91+@++@@+@@@+++++++]\\
+\char91++++++++!++++++++]\\
+\char91+@!+!+!++++++++++]\\
+\char91+@!+++++*+++!+!++]\\
+\char91++!+@++++++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Move: 96)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: that attachment was a good time
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+@+@++++++++]\\
+\char91+@@!!!!!@@++@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@+++!+++++++++]\\
+\char91+++++!++++++++@!+]\\
+\char91+@++@@+@@@+++++\gnosOverlap{!}{\footnotesize{97}}+]\\
+\char91++++++++!++++++++]\\
+\char91+@!+!+!++++++++++]\\
+\char91+@!+++++*+++!+!++]\\
+\char91++!+@++++++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Move: 97)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: at black 94
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+@+@++++++++]\\
+\char91+@@!!!!!@@+\gnosOverlap{@}{\color{white}\footnotesize{98}}@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@+++!+++++++++]\\
+\char91+++++!++++++++@!+]\\
+\char91+@++@@+@@@+++++!+]\\
+\char91++++++++!++++++++]\\
+\char91+@!+!+!++++++++++]\\
+\char91+@!+++++*+++!+!++]\\
+\char91++!+@++++++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Move: 98)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: good
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+@\gnosOverlap{!}{\footnotesize{99}}@++++++++]\\
+\char91+@@!!!!!@@+@@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@\gnosOverlap{@}{\color{white}\small{2}}+\gnosOverlap{!}{\small{3}}!{\gnosbi\char0}++++++++]\\
+\char91+++++!\gnosOverlap{!}{\small{1}}+++++++@!+]\\
+\char91+@++@@+@@@+++++!+]\\
+\char91++++++++!++++++++]\\
+\char91+@!+!+!++++++++++]\\
+\char91+@!+++++*+++!+!++]\\
+\char91++!+@++++++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 99-103)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: farther
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+@!@++++++++]\\
+\char91+@@!!!!!@@+@@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@++\gnosOverlap{!}{\small{1}}!@++++++++]\\
+\char91+++++!++++++++@!+]\\
+\char91+@++@@+@@@+++++!+]\\
+\char91++++++++!++++++++]\\
+\char91+@!+!+!++++++++++]\\
+\char91+@!+++++*+++!+!++]\\
+\char91++!+@++++++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{{\gnosbi\char0}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: white should have atari here
+Younggil [8p]: then White can still live
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+@!@++++++++]\\
+\char91+@@!!!!!@@+@@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@@+!!@\gnosOverlap{@}{\color{white}\small{6}}+\gnosOverlap{!}{\small{7}}+++++]\\
+\char91+++++!!+++\gnosOverlap{!}{\footnotesize{13}}\gnosOverlap{!}{\small{9}}\gnosOverlap{@}{\color{white}\small{8}}+@!+]\\
+\char91+@++@@+@@@\gnosOverlap{!}{\footnotesize{11}}\gnosOverlap{@}{\color{white}\footnotesize{10}}+++!+]\\
+\char91+++++++\gnosOverlap{@}{\color{white}\small{4}}!+\gnosOverlap{@}{\color{white}\footnotesize{12}}+\gnosOverlap{@}{\color{white}\footnotesize{14}}++++]\\
+\char91+@!+!+!\gnosOverlap{!}{\small{5}}+++++++++]\\
+\char91+@!+++++*+++!+!++]\\
+\char91++!+@++++++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 104-114)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: very good
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+@!@++++++++]\\
+\char91+@@!!!!!@@+@@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@@+!!@++++++++]\\
+\char91+++++!!+\gnosOverlap{!}{\small{1}}+++++@!+]\\
+\char91+@++@@+@@@+++++!+]\\
+\char91+++++++@!++++++++]\\
+\char91+@!+!+!++++++++++]\\
+\char91+@!+++++*+++!+!++]\\
+\char91++!+@++++++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{{\gnosbi\char4}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: white has a last chance to live here
+Kashomon [1k]: yeah
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+@!@++++++++]\\
+\char91+@@!!!!!@@+@@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@@+!!@++++++++]\\
+\char91+++++!!+!+++++@!+]\\
+\char91+@++@@+@@@+++++!+]\\
+\char91+++++++@!++++++++]\\
+\char91+@!+!+!\gnosOverlap{@}{\color{white}\small{2}}+++++++++]\\
+\char91+@!++++\gnosOverlap{!}{\small{3}}\gnosOverlap{@}{\color{white}\small{4}}+++!+!++]\\
+\char91++!+@++\gnosOverlap{!}{\small{5}}+++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{{\gnosbi\char4}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: who's better now then?
+Kashomon [1k]: hm
+Kashomon [1k]: White has... mabye ~70
+Younggil [8p]: yes
+Kashomon [1k]: Black has ~ 60 or less
+Younggil [8p]: yes
+Kashomon [1k]: so much better for White
+Younggil [8p]: White's top isn't yet completely alive
+Younggil [8p]: so black can get some more points, but hard to reverse
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+@!@++++++++]\\
+\char91+@@!!!!!@@+@@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@@+!!@\gnosOverlap{@}{\color{white}\small{6}}\gnosOverlap{!}{\small{7}}++++++]\\
+\char91+++++!!+!\gnosOverlap{@}{\color{white}\small{8}}+\gnosOverlap{!}{\small{9}}++@!+]\\
+\char91+@++@@+@@@++++\gnosOverlap{@}{\color{white}\footnotesize{10}}!+]\\
+\char91+++++++@!++++++++]\\
+\char91+@!+!+!@+++++++++]\\
+\char91+@!++++!@+++!+!++]\\
+\char91++!+@++!+++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{{\gnosbi\char4}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: Was there a better way to attack the white group?
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@((((((((((((((>\\
+\char91+@+@!+@!@++++++++]\\
+\char91+@@!!!!!@@+@@++@!]\\
+\char91++!@!+@@!!!+++@+!]\\
+\char91++@@@+!!@@!++++++]\\
+\char91+++++!!+!@+!++@!+]\\
+\char91+@++@@+@@@++++@!+]\\
+\char91+++++++@!++\gnosOverlap{!}{\footnotesize{11}}+++\gnosOverlap{@}{\color{white}\footnotesize{12}}+]\\
+\char91+@!+!+!@+++++++++]\\
+\char91+@!++++!@+++!+!++]\\
+\char91++!+@++!+++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\govariation[ from {\raisebox{-.17em}{\textnormal{{\gnosbi\char4}}}}]
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Younggil [8p]: hmm
+Younggil [8p]: at the beginning?
+
+
+\end{minipage}
+\vfill
+
+\rule{\textwidth}{0.5pt}
+
+\begin{minipage}[t]{0.5\textwidth}
+\gnosfontsize{12}
+{\gnos
+<((@\gnosOverlap{!}{\footnotesize{39}}\gnosOverlap{!}{\footnotesize{29}}((((((((((((>\\
+\char91+@+@!+@!@++++++++]\\
+\char91+@@!!!!!@@\gnosOverlap{@}{\color{white}\footnotesize{30}}@@\gnosOverlap{@}{\color{white}\footnotesize{24}}+@!]\\
+\char91\gnosOverlap{@}{\color{white}\footnotesize{40}}\gnosOverlap{@}{\color{white}\footnotesize{38}}!@!+@@!!!++\gnosOverlap{!}{\footnotesize{23}}@+!]\\
+\char91\gnosOverlap{@}{\color{white}\footnotesize{34}}\gnosOverlap{!}{\footnotesize{37}}@@@+!!@@+!\gnosOverlap{!}{\footnotesize{21}}++++]\\
+\gnosOverlap{@}{\color{white}\footnotesize{36}}\gnosOverlap{!}{\footnotesize{35}}\gnosOverlap{!}{\footnotesize{31}}\gnosOverlap{!}{\footnotesize{33}}+\gnosOverlap{@}{\color{white}\footnotesize{28}}!!+++!!@\gnosOverlap{@}{\color{white}\footnotesize{22}}@!+]\\
+\char91\gnosOverlap{@}{\color{white}\footnotesize{32}}@\gnosOverlap{!}{\footnotesize{27}}+@@\gnosOverlap{!}{\footnotesize{15}}@@@!@+++!+]\\
+\char91++++\gnosOverlap{@}{\color{white}\footnotesize{18}}\gnosOverlap{!}{\footnotesize{17}}\gnosOverlap{@}{\color{white}\footnotesize{16}}@!\gnosOverlap{@}{\color{white}\footnotesize{20}}@\gnosOverlap{@}{\color{white}\footnotesize{26}}@++++]\\
+\char91+@!+!\gnosOverlap{!}{\footnotesize{19}}!!+++\gnosOverlap{!}{\footnotesize{25}}+++++]\\
+\char91+@!+++++*+++!+!++]\\
+\char91++!+@++++++++++++]\\
+\char91+@@!+++++++!+@@!+]\\
+\char91++++!+++!!+++@!++]\\
+\char91++@++++++@@++@!++]\\
+\char91++++!+!+@++@+@!++]\\
+\char91+@@+++++*+!!+!*!+]\\
+\char91@!@+!+@+@@@!+++++]\\
+\char91!!!++++++@+@!++++]\\
+,))))))))))@)))))).\\
+}
+\gofigure
+
+\subtext{(Moves: 115-140)}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\setlength{\parskip}{0.5em}
+Kashomon [1k]: thx
+Kashomon [1k]: I played this game yesterday on KGS
+Younggil [8p]: wow
+
+
+\end{minipage}
+\vfill
+
+\end{document}

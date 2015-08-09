@@ -6,6 +6,15 @@
 \usepackage[margin=1in]{geometry}
 %% Define any extra packages %%
 \usepackage{gnos}
+%% Page Settings Preamble %%
+\setstocksize{11in}{8.5in}
+\settrimmedsize{\stockheight}{\stockwidth}{*}
+\settypeblocksize{0.85\stockheight}{0.85\stockwidth}{*}
+\setulmargins{*}{*}{1.618}
+\setlrmargins{*}{*}{1}
+\setheaderspaces{*}{*}{1.618}
+\checkandfixthelayout
+%% End Page Settings Preamble %%
 
 \setlength{\parskip}{0.5em}
 \setlength{\parindent}{0pt}
@@ -35,24 +44,27 @@
 \definecolor{light-gray}{gray}{0.55}
 \newcommand*{\mainBookTitle}{\begingroup
   \raggedleft
-     {\Large Josh Hoak } \\
+     {\Large{Josh Hoak}} \\
      \vspace*{1 em}
   \vspace*{5 em}
-  {\textcolor{light-gray}{\Huge Patrick v. Josh: Game 1 }}\\
+  {\textcolor{light-gray}{\Huge{Patrick v. Josh: Game 1}}}\\
   \vspace*{\baselineskip}
   \vfill
-  {\Large GPub }\par
+  {\Large{GPub}}\par
   \vspace*{2\baselineskip}
-  {\large 2015 }\par
+  {\large{2015}}\par
   \vspace*{2\baselineskip}
 \endgroup}
  %% Chapter settings %%
 \chapterstyle{madsen}
-\pagestyle{companion}
 \openany
 \makepagestyle{headings}
+\setlength{\headwidth}{\textwidth}
 \makeevenhead{headings}{\thepage}{}{\slshape\leftmark}
 \makeoddhead{headings}{\slshape\rightmark}{}{\thepage}
+\makerunningwidth{headings}[\textwidth]{\textwidth}
+\pagestyle{companion}
+\makerunningwidth{companion}{\headwidth}
 
 \begin{document}
 %% The Frontmatter. %%
@@ -64,7 +76,11 @@
 
 
 \newpage
+
 \tableofcontents
+
+
+
 
 
 %% The content. %%
@@ -108,7 +124,7 @@ Younggil [8p]: I see. That's a good idea.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -135,7 +151,7 @@ Younggil [8p]: I see. That's a good idea.
 
 \subtext{(Moves: 2-12)}
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: There's a better move instead of {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{11}}}}}. Do you see it?
 
@@ -145,7 +161,7 @@ Younggil [8p]: There's a better move instead of {\raisebox{-.17em}{\textnormal{\
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -170,7 +186,7 @@ Younggil [8p]: There's a better move instead of {\raisebox{-.17em}{\textnormal{\
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\small{2}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: This is more common. I play like this in 4-stone handicap games
 
@@ -184,7 +200,7 @@ Younggil [8p]: ok :)
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -209,7 +225,7 @@ Younggil [8p]: ok :)
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{10}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: This is nearly always better.
 
@@ -219,7 +235,7 @@ Younggil [8p]: This is nearly always better.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -244,7 +260,7 @@ Younggil [8p]: This is nearly always better.
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{10}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: white's connected
 
@@ -254,7 +270,7 @@ Younggil [8p]: white's connected
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -279,7 +295,7 @@ Younggil [8p]: white's connected
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{11}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: Black can play this to keep White low.
 
@@ -289,7 +305,7 @@ Younggil [8p]: Black can play this to keep White low.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -314,7 +330,7 @@ Younggil [8p]: Black can play this to keep White low.
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{11}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: If you had played at A, the jump at 2 would be fine, but not now...
 
@@ -324,7 +340,7 @@ Younggil [8p]: If you had played at A, the jump at 2 would be fine, but not now.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -351,7 +367,7 @@ Younggil [8p]: If you had played at A, the jump at 2 would be fine, but not now.
 
 \subtext{(Moves: 13-23)}
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: Normally, taking the corner like this isn't a very good idea
 
@@ -361,7 +377,7 @@ Younggil [8p]: Normally, taking the corner like this isn't a very good idea
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -386,7 +402,7 @@ Younggil [8p]: Normally, taking the corner like this isn't a very good idea
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{14}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: This is another way to play
 
@@ -396,7 +412,7 @@ Younggil [8p]: This is another way to play
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -421,7 +437,7 @@ Younggil [8p]: This is another way to play
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{14}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: This is a good idea -- it's easier for White to play this way.
 
@@ -435,7 +451,7 @@ Younggil [8p]: Yes
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -460,7 +476,7 @@ Younggil [8p]: Yes
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{14}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: Black might have a hard time invading because he'll worry about his stone.
 
@@ -470,7 +486,7 @@ Younggil [8p]: Black might have a hard time invading because he'll worry about h
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -495,7 +511,7 @@ Younggil [8p]: Black might have a hard time invading because he'll worry about h
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{22}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: Something like this would be better than invading the corner.
 
@@ -505,7 +521,7 @@ Younggil [8p]: Something like this would be better than invading the corner.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -530,7 +546,7 @@ Younggil [8p]: Something like this would be better than invading the corner.
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{22}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: White can still aim for the side later.
 
@@ -540,7 +556,7 @@ Younggil [8p]: White can still aim for the side later.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -567,7 +583,7 @@ Younggil [8p]: White can still aim for the side later.
 
 \subtext{(Moves: 24-33)}
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: So far so good for both, but {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{33}}}}} is maybe a bit too deep.
 
@@ -577,7 +593,7 @@ Younggil [8p]: So far so good for both, but {\raisebox{-.17em}{\textnormal{\gnos
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -602,7 +618,7 @@ Younggil [8p]: So far so good for both, but {\raisebox{-.17em}{\textnormal{\gnos
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{32}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: this sort of move would be fine
 
@@ -612,7 +628,7 @@ Younggil [8p]: this sort of move would be fine
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -637,7 +653,7 @@ Younggil [8p]: this sort of move would be fine
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{32}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: A possible continuation.
 
@@ -680,7 +696,7 @@ Younggil [8p]: Wow, interesting. This move ({\raisebox{-.17em}{\textnormal{\gnos
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -705,7 +721,7 @@ Younggil [8p]: Wow, interesting. This move ({\raisebox{-.17em}{\textnormal{\gnos
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{33}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: Black should play here first
 
@@ -715,7 +731,7 @@ Younggil [8p]: Black should play here first
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -740,7 +756,7 @@ Younggil [8p]: Black should play here first
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{33}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: White needs to come back here.
 
@@ -750,7 +766,7 @@ Younggil [8p]: White needs to come back here.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -775,7 +791,7 @@ Younggil [8p]: White needs to come back here.
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{36}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: This is another option for white
 
@@ -785,7 +801,7 @@ Younggil [8p]: This is another option for white
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -810,7 +826,7 @@ Younggil [8p]: This is another option for white
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{36}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]:  White can try to live inside like this
 
@@ -822,7 +838,7 @@ Kashomon [1k]: won't A kill?
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -847,7 +863,7 @@ Kashomon [1k]: won't A kill?
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{36}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: Black's outside isn't strong enough
 
@@ -857,7 +873,7 @@ Younggil [8p]: Black's outside isn't strong enough
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -882,7 +898,7 @@ Younggil [8p]: Black's outside isn't strong enough
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{36}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: White will play like this
 
@@ -892,7 +908,7 @@ Younggil [8p]: White will play like this
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -917,7 +933,7 @@ Younggil [8p]: White will play like this
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{36}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: Black will be in trouble
 
@@ -927,7 +943,7 @@ Younggil [8p]: Black will be in trouble
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -954,7 +970,7 @@ Younggil [8p]: Black will be in trouble
 
 \subtext{(Moves: 46-51)}
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: This was a very good result for White.
 
@@ -964,7 +980,7 @@ Younggil [8p]: This was a very good result for White.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -989,7 +1005,7 @@ Younggil [8p]: This was a very good result for White.
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{45}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Kashomon [1k]: How should Black respond?
 
@@ -1001,7 +1017,7 @@ Younggil [8p]: Maybe here. It's hard for White to fight because there are a lot 
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1026,7 +1042,7 @@ Younggil [8p]: Maybe here. It's hard for White to fight because there are a lot 
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{47}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: Black should take care of this group first.
 
@@ -1036,7 +1052,7 @@ Younggil [8p]: Black should take care of this group first.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1061,7 +1077,7 @@ Younggil [8p]: Black should take care of this group first.
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{47}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: and Black's still fine
 
@@ -1106,7 +1122,7 @@ Kashomon [1k]: I might try B.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1131,7 +1147,7 @@ Kashomon [1k]: I might try B.
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{55}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: Capping is a good idea because the center is more important and big.
 
@@ -1143,7 +1159,7 @@ Kashomon [1k]: It seems hard for W to get a base.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1168,7 +1184,7 @@ Kashomon [1k]: It seems hard for W to get a base.
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{55}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: Even if White can live, Black can attack the top right, and Black's still alright
 
@@ -1178,7 +1194,7 @@ Younggil [8p]: Even if White can live, Black can attack the top right, and Black
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1203,7 +1219,7 @@ Younggil [8p]: Even if White can live, Black can attack the top right, and Black
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{55}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 If Black plays elsewhere...
 
@@ -1213,7 +1229,7 @@ If Black plays elsewhere...
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1238,7 +1254,7 @@ If Black plays elsewhere...
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{55}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Kashomon [1k]: Is White dead?
 
@@ -1250,7 +1266,7 @@ Younggil [8p]: Not yet. There is still some aji.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1275,7 +1291,7 @@ Younggil [8p]: Not yet. There is still some aji.
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{55}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: Black can kill them with this, but it's too passive
 
@@ -1285,7 +1301,7 @@ Younggil [8p]: Black can kill them with this, but it's too passive
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1310,7 +1326,7 @@ Younggil [8p]: Black can kill them with this, but it's too passive
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{55}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: This is still possible.
 
@@ -1320,7 +1336,7 @@ Younggil [8p]: This is still possible.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1345,7 +1361,7 @@ Younggil [8p]: This is still possible.
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{55}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: I would maybe play here for Black.
 
@@ -1355,7 +1371,7 @@ Younggil [8p]: I would maybe play here for Black.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1382,7 +1398,7 @@ Younggil [8p]: I would maybe play here for Black.
 
 \subtext{(Moves: 57-65)}
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Kashomon [1k]: This turned out pretty well for Black...
 
@@ -1392,7 +1408,7 @@ Kashomon [1k]: This turned out pretty well for Black...
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1417,7 +1433,7 @@ Kashomon [1k]: This turned out pretty well for Black...
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{56}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: After A, White could play this sort of shoulder hit.
 
@@ -1427,7 +1443,7 @@ Younggil [8p]: After A, White could play this sort of shoulder hit.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1452,7 +1468,7 @@ Younggil [8p]: After A, White could play this sort of shoulder hit.
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{56}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: White can also jump out to reduce Black's influence.
 
@@ -1464,7 +1480,7 @@ Kashomon [1k]: That's slick
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1489,7 +1505,7 @@ Kashomon [1k]: That's slick
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{@}{\color{white}\footnotesize{56}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: White can make a nice shape if Black tenukis, so normally Black answers.
 
@@ -1532,7 +1548,7 @@ Younggil [8p]: Black's way of attack was too direct and it helped White.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1557,7 +1573,7 @@ Younggil [8p]: Black's way of attack was too direct and it helped White.
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{69}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: This way would be better
 
@@ -1567,7 +1583,7 @@ Younggil [8p]: This way would be better
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1592,7 +1608,7 @@ Younggil [8p]: This way would be better
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{69}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: Like this is more natural.
 
@@ -1602,7 +1618,7 @@ Younggil [8p]: Like this is more natural.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1627,7 +1643,7 @@ Younggil [8p]: Like this is more natural.
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{69}}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: Black can enlarge the top right and the center and the game will still be alright
 
@@ -1637,7 +1653,7 @@ Younggil [8p]: Black can enlarge the top right and the center and the game will 
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1664,7 +1680,7 @@ Younggil [8p]: Black can enlarge the top right and the center and the game will 
 
 \subtext{(Moves: 82-87)}
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: Now, if White lives, which is easy, the game will be very hard for Black to catch up.
 
@@ -1674,7 +1690,7 @@ Younggil [8p]: Now, if White lives, which is easy, the game will be very hard fo
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1701,7 +1717,7 @@ Younggil [8p]: Now, if White lives, which is easy, the game will be very hard fo
 
 \subtext{(Moves: 88-97)}
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: Wow, White could even play at 97.
 
@@ -1711,7 +1727,7 @@ Younggil [8p]: Wow, White could even play at 97.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1738,7 +1754,7 @@ Younggil [8p]: Wow, White could even play at 97.
 
 \subtext{(Moves: 98-107)}
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Kashomon [1k]: Oops, this was a mistake.
 
@@ -1748,7 +1764,7 @@ Kashomon [1k]: Oops, this was a mistake.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1773,7 +1789,7 @@ Kashomon [1k]: Oops, this was a mistake.
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{{\gnosbi\char6}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: This would be better :)
 
@@ -1783,7 +1799,7 @@ Younggil [8p]: This would be better :)
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1810,7 +1826,7 @@ Younggil [8p]: This would be better :)
 
 \subtext{(Moves: 108-140)}
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Kashomon [1k]: Black got a bunch of points this way
 
@@ -1820,7 +1836,7 @@ Kashomon [1k]: Black got a bunch of points this way
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((((>\\
@@ -1845,7 +1861,7 @@ Kashomon [1k]: Black got a bunch of points this way
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{{\gnosbi\char36}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: This would be easier to live
 
@@ -1898,7 +1914,7 @@ Younggil [8p]: If White loses 5 points, white can still win.
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <(((((((((((((((\gnosOverlap{@}{\color{white}\small{7}}(>\\
@@ -1923,7 +1939,7 @@ Younggil [8p]: If White loses 5 points, white can still win.
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{{\gnoswi\char51}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: This would have been complicated
 
@@ -1935,7 +1951,7 @@ Kashomon [1k]: Yeah
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <((((((((((((((\gnosOverlap{!}{\footnotesize{14}}@(>\\
@@ -1960,7 +1976,7 @@ Kashomon [1k]: Yeah
 }
 \govariation[ from {\raisebox{-.17em}{\textnormal{{\gnoswi\char51}}}}]
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 Younggil [8p]: But probably White will still win
 
@@ -1970,7 +1986,7 @@ Younggil [8p]: But probably White will still win
 
 \rule{\textwidth}{0.5pt}
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{240pt}
 \gnosfontsize{12}
 {\gnos
 <!(((\gnosOverlap{!}{\footnotesize{43}}\gnosOverlap{@}{\color{white}\footnotesize{42}}\gnosOverlap{@}{\color{white}\footnotesize{44}}((\gnosOverlap{@}{\color{white}\footnotesize{46}}\gnosOverlap{!}{\footnotesize{45}}\gnosOverlap{!}{\footnotesize{41}}(!@@(>\\
@@ -2001,7 +2017,7 @@ Younggil [8p]: But probably White will still win
 
 \subtext{{\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{27}}}}} at 15, {\raisebox{-.17em}{\textnormal{\gnosOverlap{!}{\footnotesize{39}}}}} at a.}
 \end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{268.19999999999993pt}
 \setlength{\parskip}{0.5em}
 White wins by resignation.
 

@@ -1,0 +1,499 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]HA[2]KM[0.50]TM[300]OT[5x30 byo-yomi]
+PW[taqxyn]PB[Kashomon]WR[2d]BR[1k]DT[2015-04-16]PC[The KGS Go Server at http://www.gokgs.com/]AB[pd][dp]C[taqxyn [2d\]: hi
+Kashomon [1k\]: hi, gg
+]RE[B+Forfeit]
+;W[qp]WL[293.676]C[Younggil [8p\]: let's have a look
+]
+;B[dc]BL[296.54]
+;W[fq]WL[291.527]
+;B[hq]BL[286.453]
+;W[fo]WL[289.463]
+;B[dn]BL[283.234]C[Kashomon [1k\]: pincer from the bottom?
+Younggil [8p\]: K3 or L3 instead
+]
+(;W[ho]WL[288.641]C[Kashomon [1k\]: This seemed like a weird move
+Kashomon [1k\]: is this joseki?
+Younggil [8p\]: no
+Kashomon [1k\]: I've never seen it before
+Kashomon [1k\]: well, maybe. but not in a long time
+Younggil [8p\]: black was confortable in this opening, did you feel so?
+Kashomon [1k\]: Yes, I thought so
+Younggil [8p\]: white normally plays J4 or pincer from the bottom instead
+]
+(;B[jq]BL[264.218]
+;W[fm]WL[286.256]
+;B[dl]BL[260.078]
+;W[mq]WL[285.355]
+;B[jo]BL[250.366]C[Younggil [8p\]: good as well
+]
+;W[jm]WL[283.739]
+;B[mo]BL[240.938]
+;W[op]WL[271.326]
+;B[lq]BL[239.369]
+;W[lr]WL[265.574]LB[mp:B][nq:A][mr:C]C[Younggil [8p\]: perfect so far
+Younggil [8p\]: and there's a nice tesuji 
+Younggil [8p\]: what can black do now?
+Kashomon [1k\]: Let's see
+Kashomon [1k\]: The first think that comes to mind is C
+Younggil [8p\]: ok, then?
+Kashomon [1k\]: But I can't seem to make it work
+Younggil [8p\]: you can control
+]
+(;B[kr]BL[216.577]
+;W[lp]WL[263.182]
+;B[kq]BL[215.805]
+;W[mp]WL[261.914]
+;B[mr]BL[214.706]
+;W[nr]WL[261.051]
+;B[ls]BL[213.823]
+;W[qf]WL[246.317]C[Younggil [8p\]: ok
+Kashomon [1k\]: oh
+Kashomon [1k\]: It's not
+Younggil [8p\]: white has sente now :)
+Kashomon [1k\]: because White has a stone at O2
+Kashomon [1k\]: O31
+Younggil [8p\]: Not O3
+Kashomon [1k\]: yup, O3
+Younggil [8p\]: the result up to here was successful for White
+Younggil [8p\]: black's still alright though
+]
+;B[nc]BL[199.875]
+;W[pj]WL[243.904]
+;B[kn]BL[138.582]
+;W[km]WL[240.533]
+;B[ln]BL[134.823]C[Younggil [8p\]: good moves!
+]
+;W[ml]WL[235.011]
+(;B[oo]BL[132.865]C[Younggil [8p\]: this was a bit too early
+]
+;W[po]WL[232.713]
+;B[on]BL[131.53]
+;W[pn]WL[230.454]
+;B[ol]BL[129.959]
+;W[pm]WL[225.88]
+;B[om]BL[126.452]
+;W[nj]WL[222.53]C[Younggil [8p\]: and white is happy with the territory on the right
+]
+;B[pl]BL[121.649]
+;W[ql]WL[221.604]
+;B[cg]BL[115.67]C[Younggil [8p\]: by the way, this move is interesting!
+Younggil [8p\]: seems to be good balanced :)
+Kashomon [1k\]: thanks
+]
+;W[ic]WL[213.295]C[Kashomon [1k\]: yes, the stones are on the 4th line
+Younggil [8p\]: yea
+]
+;B[kc]BL[110.85]
+;W[fc]WL[211.049]
+;B[de]BL[108.03]
+;W[db]WL[208.348]
+;B[eb]BL[107.233]
+;W[ec]WL[207.104]
+;B[cb]BL[105.256]
+;W[dd]WL[206.129]
+;B[cc]BL[104.173]
+;W[fb]WL[204.21]
+;B[da]BL[83.763]C[Younggil [8p\]: good
+]
+;W[cq]WL[193.051]
+;B[dq]BL[78.287]
+;W[dr]WL[190.886]
+;B[cp]BL[77.308]C[Younggil [8p\]: right direction
+]
+;W[br]WL[189.833]
+;B[bq]BL[76.207]
+;W[cr]WL[188.588]
+(;B[ed]BL[63.466]C[Younggil [8p\]: this is also thick and safe
+]
+;W[fd]WL[185.968]
+;B[ee]BL[62.506]C[Younggil [8p\]: you thought the game was still good for you, right?
+Kashomon [1k\]: Yes, I thought it was going alright
+Younggil [8p\]: good
+Younggil [8p\]: the game seems to be still better for Black
+]
+;W[rd]WL[185.167]
+;B[qc]BL[60.854]
+;W[rc]WL[183.179]
+;B[fk]BL[58.279]C[Younggil [8p\]: very good
+]
+;W[gf]WL[175.546]
+;B[fg]BL[30]OB[5]
+;W[fi]WL[172.12]C[Younggil [8p\]: this is a good move to reduce black's area
+Younggil [8p\]: and Black should also try to gain some points for compensation
+]
+;B[gg]BL[30]OB[5]
+;W[hi]WL[169.681]C[Kashomon [1k\]: yeah
+Kashomon [1k\]: oh
+Younggil [8p\]: here?
+Kashomon [1k\]: I mean
+]
+(;B[jb]BL[30]OB[5]
+;W[kd]WL[167.483]C[Kashomon [1k\]: too early for that
+Kashomon [1k\]: yeah
+]
+(;B[jc]BL[30]OB[5]
+;W[jd]WL[162.935]
+;B[id]BL[30]OB[5]C[Kashomon [1k\]: this was a mistake
+Younggil [8p\]: wow
+Younggil [8p\]: oh, because they are captured?
+]
+;W[ie]WL[157.408]
+;B[hd]BL[30]OB[5]
+;W[hc]WL[153.664]
+(;B[ig]BL[30]OB[4]
+;W[ld]WL[140.917]
+(;B[kg]BL[30]OB[4]
+;W[jh]WL[138.642]
+;B[jg]BL[30]OB[4]
+;W[di]WL[136.613]C[Younggil [8p\]: oh
+Younggil [8p\]: black lost a lot of points here
+Kashomon [1k\]: now the game is uncertain
+Younggil [8p\]: right
+Younggil [8p\]: so did you start to attack White's top group?
+Kashomon [1k\]: yup =)
+Younggil [8p\]: good :)
+]
+;B[ci]BL[30]OB[4]C[Kashomon [1k\]: not yet
+]
+;W[dj]WL[121.457]
+;B[cj]BL[30]OB[4]
+;W[dk]WL[120.297]
+;B[cl]BL[30]OB[4]
+;W[el]WL[117.126]C[Kashomon [1k\]: now
+Younggil [8p\]: i see
+Younggil [8p\]: now you should do :)
+Younggil [8p\]: not easy actually
+]
+(;B[hb]BL[30]OB[3]C[Younggil [8p\]: if you were white, where'd you play?
+Kashomon [1k\]: h15 
+Kashomon [1k\]: after this
+Kashomon [1k\]: instead of this?
+Younggil [8p\]: hmm
+]
+(;W[gc]WL[105.255]C[Kashomon [1k\]: Here
+Younggil [8p\]: now?
+]
+;B[pf]BL[30]OB[3]C[Younggil [8p\]: that attachment was a good time
+]
+;W[qg]WL[101.821]C[Kashomon [1k\]: at black 94
+]
+(;B[mc]BL[30]OB[3]C[Younggil [8p\]: good
+]
+;W[ib]WL[96.141]
+;B[je]BL[30]OB[3]
+(;W[hf]WL[86.513]
+;B[fe]BL[30]OB[3]
+;W[he]WL[63.881]C[Kashomon [1k\]: farther
+]
+;B[ih]BL[30]OB[3]
+(;W[ii]WL[57.141]
+;B[ke]BL[30]OB[3]
+;W[me]WL[36.657]
+;B[nf]BL[30]OB[2]
+;W[mf]WL[30.283]
+;B[mg]BL[30]OB[2]
+;W[lg]WL[30]OW[5]
+;B[lh]BL[30]OB[1]
+;W[lf]WL[30]OW[5]
+;B[nh]BL[30]OB[1]C[Younggil [8p\]: very good
+]
+;W[hg]WL[30]OW[5]
+;B[hh]BL[30]OB[1]
+;W[gh]WL[30]OW[5]
+;B[fh]BL[30]OB[1]
+;W[gi]WL[30]OW[5]
+;B[kh]BL[30]OB[1]
+;W[ne]WL[30]OW[5]
+;B[of]BL[30]OB[1]
+;W[od]WL[30]OW[5]
+;B[oc]BL[30]OB[1]
+;W[mi]WL[30]OW[5]
+;B[mh]BL[30]OB[1]
+;W[dg]WL[30]OW[5]
+;B[ff]BL[30]OB[1]
+;W[fa]WL[30]OW[5]
+;B[lc]BL[30]OB[1]
+;W[cf]WL[30]OW[5]
+;B[bg]BL[30]OB[1]
+;W[df]WL[30]OW[5]
+;B[be]BL[30]OB[1]
+;W[bf]WL[30]OW[5]
+;B[af]BL[30]OB[1]
+;W[ce]WL[30]OW[5]
+;B[cd]BL[30]OB[1]
+;W[ea]WL[30]OW[5]
+;B[bd]BL[30]OB[1]C[Kashomon [1k\]: thx
+Kashomon [1k\]: I played this game yesterday on KGS
+Younggil [8p\]: wow
+])
+(;W[jf]C[Younggil [8p\]: white has a last chance to live here
+Kashomon [1k\]: yeah
+]
+;B[ii]
+;W[ij]
+;B[jj]
+;W[ik]C[Younggil [8p\]: who's better now then?
+Kashomon [1k\]: hm
+Kashomon [1k\]: White has... mabye ~70
+Younggil [8p\]: yes
+Kashomon [1k\]: Black has ~ 60 or less
+Younggil [8p\]: yes
+Kashomon [1k\]: so much better for White
+Younggil [8p\]: White's top isn't yet completely alive
+Younggil [8p\]: so black can get some more points, but hard to reverse
+]
+;B[ke]
+;W[le]
+;B[kf]
+;W[mf]
+;B[pg]C[Kashomon [1k\]: Was there a better way to attack the white group?
+]
+;W[mh]
+;B[qh]C[Younggil [8p\]: hmm
+Younggil [8p\]: at the beginning?
+]))
+(;W[he]C[Younggil [8p\]: white should have atari here
+Younggil [8p\]: then White can still live
+]))
+(;B[ib]))
+(;W[he]C[Younggil [8p\]: right, White's alive
+Younggil [8p\]: and that's hard to chase
+Kashomon [1k\]: hm
+Kashomon [1k\]: really?
+Younggil [8p\]: yea
+Kashomon [1k\]: let's see
+Younggil [8p\]: nearly
+]
+;B[ib]
+;W[gd]LB[gb:A][fe:B][jf:C]C[Kashomon [1k\]: oh yeah
+Younggil [8p\]: yea :)
+Younggil [8p\]: right
+Kashomon [1k\]: because of 
+Kashomon [1k\]: hm
+Kashomon [1k\]: oops
+Kashomon [1k\]: haha
+Younggil [8p\]: :), east to misread
+Younggil [8p\]: easy*
+]))
+(;B[oi]
+;W[oj]
+;B[pf]
+;W[qg]
+;B[pg]C[Kashomon [1k\]: giving up those two stones made things hard
+]
+;W[ph]
+;B[oh]
+;W[pi]C[Younggil [8p\]: yes right
+Younggil [8p\]: hard to capture the group
+]))
+(;B[ei]C[Younggil [8p\]: black should block here by the way
+Younggil [8p\]: that's very big
+Younggil [8p\]: and White's center is still open
+Kashomon [1k\]: that makes sense
+]))
+(;B[ld]
+;W[he]
+;B[le]C[Younggil [8p\]: this would be better still
+Kashomon [1k\]: I guess at this stage E11 is still open
+Younggil [8p\]: right
+]))
+(;B[ld]
+;W[jc]
+;B[lb]
+;W[ke]
+;B[le]
+;W[kf]
+;B[ei]C[Kashomon [1k\]: this would have been fine
+Younggil [8p\]: that'd be just ok with this
+]))
+(;B[hf]C[Younggil [8p\]: this is also possible
+Kashomon [1k\]: Ah
+]
+(;W[he]
+;B[if]
+;W[ie])
+(;W[jd]
+;B[kd]
+;W[jf]
+(;B[ei]C[Younggil [8p\]: like this
+Kashomon [1k\]: I realized at this stage that for White to win
+Kashomon [1k\]: White needed to make points in the center
+Younggil [8p\]: right
+Younggil [8p\]: so black'd better reduce the center
+])
+(;B[ke]
+;W[je]C[Younggil [8p\]: this is good enough
+Younggil [8p\]: since black was already in the lead
+]
+;B[ei]C[Younggil [8p\]: so this would be the best
+Younggil [8p\]: the game would still be close though
+Kashomon [1k\]: I see, that makes sense
+Younggil [8p\]: any other questions in this game?
+Kashomon [1k\]: hm
+]))))
+(;B[fk]C[Younggil [8p\]: this is also a good place
+]
+;W[cd]
+;B[ed]C[Younggil [8p\]: and white can't fight like this
+]))
+(;B[qh]C[Younggil [8p\]: how about invading here?
+Kashomon [1k\]: Ah, that would be nice timing
+]
+(;W[qj]
+;B[oo]
+;W[po]
+;B[on]C[Younggil [8p\]: if white answers at R10, Black can still play here later
+])
+(;W[ph]
+;B[pi]
+;W[oi]
+;B[qi]
+;W[pg]
+;B[qj]
+;W[pk]
+;B[ql]C[Kashomon [1k\]: successful fol black
+Younggil [8p\]: black can live like this
+Younggil [8p\]: yea
+])))
+(;B[mr]C[Younggil [8p\]: black can cut that in sente
+Younggil [8p\]: yes
+Younggil [8p\]: with this cut
+Kashomon [1k\]: I should study my tesuji!
+Younggil [8p\]: this is a common tesuji, so if you can remember this, that'll be helpful :)
+Younggil [8p\]: good
+Younggil [8p\]: any other questions do you have?
+Kashomon [1k\]: nope. We only have ~8 minutes. Want to end early?
+Younggil [8p\]: that'd be fine
+Younggil [8p\]: I'm going to talk to David for ordering things 
+Kashomon [1k\]: alright, well thank you for the lessosn!
+Younggil [8p\]: you're welcome
+Kashomon [1k\]: Sounds tricky! good luck
+Younggil [8p\]: thanks! :)
+Younggil [8p\]: have a nice evening and talk to you more later!
+]
+(;W[lp]
+;B[kq]
+;W[nr]
+;B[mp]C[Younggil [8p\]: yes, good
+Kashomon [1k\]: Oh that's probably sufficient
+])
+(;W[nq]C[Younggil [8p\]: capture the stone
+]
+(;B[kr]
+;W[lp]
+(;B[kq]C[Younggil [8p\]: take it out
+]
+(;W[ls])
+(;W[mp])
+(;W[nr]
+;B[ls]
+;W[mp]C[Younggil [8p\]: black has sente
+Kashomon [1k\]: hm
+Younggil [8p\]: or
+Kashomon [1k\]: this seems to be similar to the game
+Kashomon [1k\]: In this variation I mean
+Younggil [8p\]: when you're being attacked
+Younggil [8p\]: cross cut is a good idea
+Kashomon [1k\]: That's slick
+Younggil [8p\]: can I control please?
+]))
+(;B[ls]C[Younggil [8p\]: black can even take it now
+]
+(;W[mp]LB[or:A]C[Kashomon [1k\]: White won't connect
+Younggil [8p\]: and that's better for the endgame
+])
+(;W[pj]
+;B[mp]LB[kq:B][ls:A]C[Younggil [8p\]: this is very good for Black
+Younggil [8p\]: and A is better than B anyway
+Kashomon [1k\]: I see
+])))
+(;B[lp]C[Younggil [8p\]: no
+]))
+(;W[nr]
+;B[mp]
+;W[nq]
+;B[kr]
+;W[ms]C[Younggil [8p\]: this is normal for White
+Younggil [8p\]: and Black has sente
+])))
+(;B[kq]C[Younggil [8p\]: this is also possible
+]
+;W[mq]
+;B[ko]C[Kashomon [1k\]: I was trying to avoid J2
+Younggil [8p\]: like this
+Younggil [8p\]: i see
+Younggil [8p\]: alright
+]))
+(;W[jq]C[Younggil [8p\]: yes
+Kashomon [1k\]: I don't know this variation
+Younggil [8p\]: to develop the bottom, whilte Black can White jump towards the center together
+Kashomon [1k\]: Can you show me?
+]
+;B[ip]
+;W[jp]
+;B[in]
+;W[fm]
+(;B[dl]
+;W[jo]
+;B[io]
+;W[fk]
+;B[jn]C[Younggil [8p\]: something like this
+Kashomon [1k\]: Is this a handicap joseki?
+Younggil [8p\]: hmm, no
+Younggil [8p\]: just playable for both
+Kashomon [1k\]: I see, thanks
+Younggil [8p\]: in general, black's position is slightly better
+Younggil [8p\]: this is better for the handicap game
+Younggil [8p\]: black might feel uncomfortable or uneasy with the lower side group
+Younggil [8p\]: because they're still weak and baseless
+Kashomon [1k\]: Would White follow up with L6 or D10 here?
+]
+(;W[kn]
+;B[km]
+;W[ln]C[Younggil [8p\]: probably here
+])
+(;W[dj]
+;B[ln]
+;W[op]
+;B[cf]LB[dj:A][ej:C][fj:D][ek:B]C[Younggil [8p\]: because there's nothing special after A
+Kashomon [1k\]: I see
+Younggil [8p\]: and Black can still cut off White with B to D later
+]))
+(;B[jn])
+(;B[il]
+;W[dl]C[Younggil [8p\]: this is different
+]
+;B[dr]
+;W[de]C[Younggil [8p\]: like this
+Kashomon [1k\]: I see
+Kashomon [1k\]: Well, I think that's all the questions from this game that I have
+Younggil [8p\]: good, it was a nice game
+Younggil [8p\]: you could get a better result in the opening though :)
+]))
+(;W[ip]
+;B[hp]
+;W[ho]
+;B[iq]
+;W[jp]
+;B[jq]
+;W[kp]
+;B[lq]LB[pd:A]C[Kashomon [1k\]: I've seen this many times
+Younggil [8p\]: this is normal joseki, but that's bad in handicap games
+Kashomon [1k\]: why?
+Younggil [8p\]: now, because of A, White can't develop his right side easily
+]
+(;AW[pd]C[Younggil [8p\]: normally 
+Younggil [8p\]: the color is swapped
+]
+;W[mo]C[Younggil [8p\]: and White plays like this
+Younggil [8p\]: and White has a good position on the right side
+Younggil [8p\]: with some potential in the center
+Younggil [8p\]: but
+])
+(;W[mo]
+;B[qj]
+;W[go]
+;B[nq]C[Younggil [8p\]: so, that's a bit too easy for Black
+Kashomon [1k\]: ah
+])))

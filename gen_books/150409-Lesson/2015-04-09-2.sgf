@@ -1,0 +1,795 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]
+PW[jarstar]PB[jrhoak]WR[2k]BR[1k]DT[2014-12-23]CP[online-go.com]PC[OGS: http://online-go.com/game/1268752]C[Kashomon [1k\]: Hello
+Younggil [8p\]: hi
+Kashomon [1k\]: Would you mind if I got some tea?
+Younggil [8p\]: no, take your time
+Kashomon [1k\]: (so i can stay awake =)
+Younggil [8p\]: good
+]RE[B+Resign]
+;B[pd]C[Kashomon [1k\]: hello
+Younggil [8p\]: hi
+Younggil [8p\]: nice game! 
+Kashomon [1k\]: So, as you can see, I won this game. This was another correspondence game
+Younggil [8p\]: let's have a look
+Younggil [8p\]: i see
+Kashomon [1k\]: I'll write up feedback again and send it =)
+Younggil [8p\]: alright
+]
+;W[dd]
+;B[qp]
+;W[dq]
+;B[oq]
+(;W[qf]
+;B[qi]
+;W[qc]C[Kashomon [1k\]: It really helps me to learn from lessons to do so
+]
+;B[qd]
+;W[pc]
+;B[od]
+;W[rd]C[Younggil [8p\]: good
+Younggil [8p\]: I'll also point out White's mistakes as well in that case
+]
+;B[re]
+;W[rc]C[Kashomon [1k\]: great!
+]
+;B[qe]
+;W[nc]LB[me:D][cf:C][do:A][jp:B]C[Younggil [8p\]: now
+Younggil [8p\]: in the very opening
+Younggil [8p\]: normally. big places are first
+Younggil [8p\]: where's the biggest point on the board?
+Kashomon [1k\]: I would say B
+Younggil [8p\]: good
+Younggil [8p\]: B is fine
+Younggil [8p\]: but A is more common
+]
+(;B[me]C[Kashomon [1k\]: the problem I have here
+Younggil [8p\]: this is a nice place, but not urgent
+Kashomon [1k\]: Is that O15 is really annoying
+Younggil [8p\]: when do you mean?
+Kashomon [1k\]: and seems like it's a series of sente moves
+Younggil [8p\]: this isn't very urgent yet
+]
+;W[mc]C[Kashomon [1k\]: can I ask a brief tangent?
+Younggil [8p\]: yes
+Kashomon [1k\]: Should white attach at S4 as a probe?
+Kashomon [1k\]: When is it reasonable to do so?
+Younggil [8p\]: hmm
+Younggil [8p\]: that's a bit subtle
+Younggil [8p\]: and when it's hard for White to invade on the right
+Younggil [8p\]: S4 could be a good idea
+Younggil [8p\]: for example
+Younggil [8p\]: can I control?
+Younggil [8p\]: anyway, here
+]
+(;B[ke]C[Younggil [8p\]: but this sort of jump was a bit too early
+Younggil [8p\]: you can play here later on
+Kashomon [1k\]: I see
+]
+(;W[jp]
+;B[lp]C[Kashomon [1k\]: I see
+Younggil [8p\]: Black's right side is already limited
+]
+(;W[co]
+;B[kn]C[Younggil [8p\]: this knight's move was very good
+]
+;W[pj]
+(;B[pi]
+;W[rf]C[Younggil [8p\]: oh, that's interesting
+]
+;B[se]
+(;W[of]
+;B[ne]LB[ke:A]C[Younggil [8p\]: but maybe a bit overplay for White
+Younggil [8p\]: because these moves make Black A nice
+Kashomon [1k\]: It seemed helpful in the game
+Younggil [8p\]: yes
+]
+;W[nj]
+;B[oj]
+;W[ok]
+;B[oi]C[Younggil [8p\]: by the way, this fighting seems to be better for Black
+Younggil [8p\]: did you feel so too?
+Kashomon [1k\]: Yes, but I was surprise how easy it was for W to live later
+Kashomon [1k\]: I think maybe I missed something?
+Younggil [8p\]: haha, let's see
+]
+;W[mn]
+;B[ln]
+;W[om]C[jrhoak: beautiful move
+jarstar: Thanks!
+]
+;B[lj]C[Younggil [8p\]: so far so good
+]
+;W[lf]
+;B[le]
+;W[mj]
+;B[li]
+;W[ql]C[Kashomon [1k\]: I thought white's moves here were nice and light
+Younggil [8p\]: yes
+Younggil [8p\]: this move was very good
+Younggil [8p\]: vital point of the shape
+]
+(;B[qn]
+;W[qj]
+;B[pk]
+(;W[pl]
+;B[nk]
+;W[ol]
+;B[mk]C[Younggil [8p\]: this was quite successful for Black
+]
+(;W[rk]C[Younggil [8p\]: yes
+]
+;B[ri]
+;W[rm]
+;B[rn]
+(;W[sl]C[Younggil [8p\]: and also because White is behind
+Younggil [8p\]: so he should try to get sente
+Kashomon [1k\]: ah
+]
+;B[hp]C[jarstar: Nice followup
+]
+;W[mq]C[jarstar: Invade all the things
+jrhoak: hm
+jarstar: Playing on OGS and watching Haylee's games have really rekindled my interest in Go.
+jarstar: Thanks for sharing that youtube channel, by the way!
+]
+;B[mp]
+;W[nq]C[jrhoak: =)
+]
+;B[op]
+;W[jr]
+;B[in]
+;W[or]
+;B[pr]
+(;W[np]
+;B[no]
+;W[ns]
+;B[mr]C[jarstar: Woah.  Didn't expect
+Kashomon [1k\]: This was an overplay
+Younggil [8p\]: that's a good idea :)
+Younggil [8p\]: oh, why?
+]
+;W[lr]C[jrhoak: Not sure if it works =)
+]
+;B[lq]
+;W[nr]
+;B[kr]
+;W[ms]C[jrhoak: okaaay
+]
+;B[kq]
+;W[qr]C[jrhoak: excellent timing
+]
+;B[pq]
+;W[ps]C[jarstar: I felt like the left and the right were miai for living
+jarstar: Well, my reductions lived, but your moyo strategy is still working really well.
+]
+;B[rq]C[Kashomon [1k\]: becaulse of Black's cutting points
+]
+(;W[rr]C[Younggil [8p\]: i see
+]
+;B[oo]
+(;W[sr]C[jarstar: I was worried you were going to go for the ko
+Younggil [8p\]: I understand that
+]
+;B[ks]
+;W[ls]C[jrhoak: Didn't look good to me given the internal threats
+jarstar: icic
+jrhoak: ugh. I hate to make this move, but I can't find a way around it
+]
+(;B[mm]C[jarstar: This is an important moment
+jarstar: Tough to decide where to go
+Kashomon [1k\]: maybe N7 was slow?
+Younggil [8p\]: the result was still satisfactory for Black, right?
+Younggil [8p\]: yes, a bit
+Younggil [8p\]: looks like necessary
+Younggil [8p\]: very good
+Kashomon [1k\]: haha
+Younggil [8p\]: the game is certainly good for Black now :)
+]
+;W[jg]C[jrhoak: hm
+]
+(;B[hg]
+;W[if]
+;B[hf]
+(;W[jd]
+;B[jf]C[Younggil [8p\]: good 
+Younggil [8p\]: this is a nice tesuji to cut
+]
+;W[je]
+;B[kf]
+;W[ig]
+;B[ie]
+(;W[hh]
+;B[he]
+(;W[ji]
+;B[gh]
+;W[hi]
+;B[gi]
+;W[hj]C[jrhoak: all the influence!
+jarstar: Seriously.
+jarstar: This has been a tough game for white
+Younggil [8p\]: normally
+]
+(;B[gk]C[jarstar: Guh, I definitely messed up about fifteen moves ago
+Kashomon [1k\]: ah
+Kashomon [1k\]: here was one
+Younggil [8p\]: this was a mistake
+]
+;W[gj]C[Kashomon [1k\]: I think I was too worried about killing
+]
+;B[fj]
+;W[fk]C[Younggil [8p\]: because of the cutting point
+Younggil [8p\]: i see
+Younggil [8p\]: Black doesn't have to kill
+]
+(;B[hk]
+;W[ik]
+;B[gm]
+;W[il]
+(;B[hm]
+;W[kk]C[jrhoak: still tricky L& D
+]
+;B[kj]
+;W[jj]
+;B[jl]
+;W[gg]
+;B[ei]C[jrhoak: exciting
+]
+;W[fg]C[Younggil [8p\]: it's already not that easy
+Kashomon [1k\]: I see
+Younggil [8p\]: already complicated
+]
+;B[ek]
+;W[fd]C[jrhoak: hey, whey not
+Younggil [8p\]: now, this would be the last fighting
+]
+;B[jc]C[jarstar: Ho boy.  Final showdown
+Younggil [8p\]: good start
+]
+;W[id]
+;B[hd]
+;W[ic]
+;B[hc]
+(;W[ib]
+;B[hb]
+;W[jb]
+(;B[ec]C[Kashomon [1k\]: this was a mistake here
+Kashomon [1k\]: to capture the center group
+Younggil [8p\]: yea
+Kashomon [1k\]: it's not quite there
+Kashomon [1k\]: I think F18 would have done it
+]
+;W[fc]
+;B[fb]
+;W[eh]
+;B[fi]
+;W[eb]C[jrhoak: so very complicated
+jrhoak: yikes
+]
+;B[db]
+;W[gb]C[Kashomon [1k\]: as I counted, Black needs 8 liberties
+]
+;B[ea]
+(;W[ha]C[Younggil [8p\]: i see
+]
+;B[ga]C[jarstar: Oh.
+jarstar: Ko.
+jarstar: Ugh
+]
+;W[fa]C[jrhoak: yup
+]
+;B[ih]C[Younggil [8p\]: anyway, you played quite well overall
+Younggil [8p\]: the opening was ok as well
+]
+;W[ii]
+;B[ga]
+;W[gl]C[jrhoak: tempting to take
+jarstar: I'm looking at whether I could've avoided the ko with G19 instead
+jarstar: Was there some other response you had in store?
+jrhoak: oh hm
+jrhoak: I didn't think about G17
+jrhoak: I would probably try to E15 the
+jrhoak: then
+jrhoak: that would have been a good move
+jrhoak: err
+jrhoak: G19
+jarstar: I didn't see it till after I played XD
+jarstar: Your attack has been really good
+jrhoak: 19 G17 E14 maybe?
+jrhoak: Thanks.  I think that E17 was an overplay
+jrhoak: I thin just F18 would have been fine
+jrhoak: Your stones had 8 libetries
+jarstar: Yeah
+jrhoak: after E17 the most I could get was 7 =/
+jrhoak: and maybe H18 instead of G18
+jrhoak: err
+jrhoak: G18 instead of H18
+jarstar: Oh, that'd be interesting
+jrhoak: I didn't see how severe F16 was as a counter
+jrhoak: that was a nice move
+jarstar: Thanks
+jrhoak: It works because the F13 stones are well positioned
+jrhoak: alright, gotta peace out for now
+jarstar: Later!
+]
+(;B[kg]
+(;W[jh]
+;B[gc]
+;W[hl]
+;B[ef]
+(;W[el]
+;B[dh]C[Younggil [8p\]: now, White lost one move
+Younggil [8p\]: and it's not going well
+]
+;W[di]
+;B[dj]
+;W[ci]
+;B[cj]C[jarstar: Last ditch effort...
+]
+;W[bj]
+;B[bi]
+;W[ch]
+;B[bh]
+;W[cg]
+;B[bk]
+;W[aj]
+;B[ck]C[jarstar: Thanks for the game!
+jarstar: Have you heard about some large tournament happening in Denver next month?
+jrhoak: Maybee..?
+jrhoak: By the way
+jrhoak: Congrats on winning the Kyu division
+jrhoak: you're gonna be dan in no time
+jarstar: Thanks!  Yeah, tourney march 21 at Auraria campus (wherever that is)
+])
+(;W[dh]
+;B[fl]
+;W[df]
+;B[fq]C[Younggil [8p\]: now, Black is already winning 
+Kashomon [1k\]: yea
+Younggil [8p\]: so hard for White to catch up
+Younggil [8p\]: the game was quite interesting and exciting
+Kashomon [1k\]: So, going back
+Younggil [8p\]: especially from the middle game :)
+Kashomon [1k\]: what was black's key mistake?
+]))
+(;W[hl]C[Younggil [8p\]: White should just take here
+]
+(;B[ef]
+;W[fa]C[Kashomon [1k\]: ah
+Younggil [8p\]: it would be quite different
+])
+(;B[gc]
+;W[el]C[Younggil [8p\]: because white can play one more move
+])))
+(;B[ia]C[Younggil [8p\]: so
+])
+(;B[fl]C[Younggil [8p\]: black should answer here and
+]
+;W[fa]
+;B[kg]C[Kashomon [1k\]: I'm not seeing it
+Younggil [8p\]: this one
+Kashomon [1k\]: oh 
+Kashomon [1k\]: sorry
+Younggil [8p\]: no worries
+]
+;W[jh]
+;B[ga]C[Kashomon [1k\]: ah
+Younggil [8p\]: Black has one more ko threat
+Younggil [8p\]: and White doesn't have any
+Kashomon [1k\]: which one?
+]))
+(;W[ga]
+;B[gc]
+;W[ha]
+;B[ed]
+;W[fe]C[Kashomon [1k\]: yeah
+Younggil [8p\]: White could capture
+]))
+(;B[fb]
+;W[eb]
+(;B[jk]C[Younggil [8p\]: IF this cutting works
+Younggil [8p\]: Black will still capture
+])
+(;B[kl]
+;W[jk]
+;B[kh]
+;W[fc]
+;B[jh]
+;W[ih]
+;B[kg]C[Younggil [8p\]: Black has one more liberty
+Kashomon [1k\]: hm, maybe I counted wrong
+Younggil [8p\]: that's quite tricky to count
+Younggil [8p\]: because White might have a good move to extend his liberty
+Younggil [8p\]: so the way you played was alright
+])))
+(;W[kc]C[Younggil [8p\]: this would be better for White
+]
+;B[fb]
+;W[ec]C[Younggil [8p\]: Black will be in trouble
+]))
+(;B[ek]
+;W[fl]
+;B[hm]))
+(;B[ej]LB[gk:A]C[Younggil [8p\]: this would still be ok
+Kashomon [1k\]: Instead of K8, black should have defended
+Kashomon [1k\]: or this
+Younggil [8p\]: yea, right
+Younggil [8p\]: since White can't capture Black A, that's still ok
+]))
+(;B[fk]C[Younggil [8p\]: the knight's move is better
+]
+;W[hl]
+;B[gm]
+;W[jk]C[Younggil [8p\]: even if White can live somehow
+]
+;B[cf]
+;W[fc]
+;B[cm]C[Younggil [8p\]: Black is still winning
+Kashomon [1k\]: yeah
+Younggil [8p\]: quite a lot now
+]))
+(;W[ii]C[Younggil [8p\]: or this connection is better to escape
+]))
+(;W[he]
+;B[id]
+;W[ge]
+;B[ic]
+;W[hh]C[Younggil [8p\]: White should play like this
+]
+;B[ff]C[Kashomon [1k\]: Yeah, looks like a nicer fight this way
+]
+;W[ii]
+;B[fe]C[Younggil [8p\]: but still hard
+]))
+(;W[ie]
+;B[he]
+;W[id]C[Kashomon [1k\]: Did I make this mor dangerous than I needed to?
+Younggil [8p\]: White should keep extending
+Kashomon [1k\]: I see
+]))
+(;B[if]
+;W[ig]
+;B[hf]C[Younggil [8p\]: this is more common
+]
+;W[hg]
+;B[gf]
+;W[fh]
+;B[ef]C[Younggil [8p\]: going towards the left side, and White can't make any big terrotory there
+]
+;W[cf]
+;B[cg]
+;W[df]
+;B[eg]
+;W[ei]
+;B[dg]C[Younggil [8p\]: while White's center group is weak, White can't fight properly
+Kashomon [1k\]: I see
+]))
+(;B[cf]
+;W[fc]
+;B[dj]
+;W[ml]
+;B[ll]
+;W[mo]C[Kashomon [1k\]: I was worried about this yea
+]
+;B[po]C[Younggil [8p\]: Black's already alive
+]
+;W[lo]C[Kashomon [1k\]: hm
+Kashomon [1k\]: and here?
+Younggil [8p\]: oh, but some bad aji here
+]))
+(;W[ks]C[Younggil [8p\]: but White should still connect under here first
+]))
+(;W[ks]C[Younggil [8p\]: even here
+Kashomon [1k\]: I see
+]
+;B[oo]
+;W[hr]C[Younggil [8p\]: much better maybe
+]))
+(;W[ns]C[Younggil [8p\]: White should just play here
+]))
+(;W[gp]C[Younggil [8p\]: White could still tenuki I think
+Kashomon [1k\]: wow, here?
+]
+;B[sl]C[Kashomon [1k\]: how?
+]
+;W[pn]
+;B[qm]
+;W[pp]
+;B[pq]
+(;W[op])
+(;W[sm]
+;B[sk]
+;W[op]LB[lk:A][ml:B][qq:C]C[Younggil [8p\]: yes
+Younggil [8p\]: hard for Black to capture
+Kashomon [1k\]: wow, that's some pro L&D right there
+Younggil [8p\]: there're many weaknesses for Black
+Kashomon [1k\]: yea
+Younggil [8p\]: yea, kinda :)
+]))
+(;W[oo]LB[nq:A]C[Younggil [8p\]: at least, this is much better for the reinforcement
+Younggil [8p\]: because White can attach at A next
+]))
+(;W[rj]
+;B[ri]
+;W[rm]C[Younggil [8p\]: White should play like this at least
+Younggil [8p\]: and that'd be much better for the endgame
+Kashomon [1k\]: yea
+]
+;B[rn]
+;W[gp]C[Younggil [8p\]: White is already alive
+Kashomon [1k\]: I would probably tenuki
+]))
+(;W[rj]C[Younggil [8p\]: what if White extends here?
+Kashomon [1k\]: hm
+Kashomon [1k\]: yuck
+Younggil [8p\]: hard...
+Kashomon [1k\]: I would have to cut still, I think
+Younggil [8p\]: so
+]
+;B[nk]
+;W[ol]
+;B[mk]
+;W[ri]
+;B[rh]
+;W[qh]C[Younggil [8p\]: then White can do like this
+]))
+(;B[pk]C[Younggil [8p\]: So black should cut here first
+Younggil [8p\]: and
+]
+;W[pl]
+;B[nk]
+;W[qk]
+;B[mk]C[Younggil [8p\]: this is much better
+Kashomon [1k\]: I see
+Younggil [8p\]: Black's territory is quite big
+]
+;W[ro]
+;B[eq]
+;W[ep]
+;B[fq]
+;W[dr]
+;B[fp]
+;W[eo]
+;B[hp]C[Younggil [8p\]: and Black can attack White's K4 like this later
+Kashomon [1k\]: I find that both you and David are better at leaning to attack
+Kashomon [1k\]: (of course)
+Younggil [8p\]: haha,
+Kashomon [1k\]: but it's something I notice inparticular
+Younggil [8p\]: yea, that's sometimes more efficient
+Kashomon [1k\]: for example E3
+Younggil [8p\]: right
+Younggil [8p\]: if you think more about that leaning attack, you can play better I think :)
+Kashomon [1k\]: Yes, I think so too
+Younggil [8p\]: you're already playing much better than before you did
+]))
+(;W[qj]C[Younggil [8p\]: what if White blocks here instead?
+Kashomon [1k\]: hm
+Kashomon [1k\]: I would play
+Kashomon [1k\]: p10 
+]
+;B[oj]
+(;W[ri]
+;B[rh]
+;W[rj]
+;B[oi]
+;W[qm]C[Younggil [8p\]: White can try to settle inside like this
+Younggil [8p\]: or
+])
+(;W[ok]
+;B[oi]
+;W[pl]C[Younggil [8p\]: like this
+Kashomon [1k\]: I see
+Younggil [8p\]: hard for Black to attack severely
+Kashomon [1k\]: what if
+Kashomon [1k\]: Black plays at S8?
+Younggil [8p\]: because White can also jump out to the center
+Kashomon [1k\]: to low?
+Kashomon [1k\]: ah
+]
+;B[rl]
+;W[ri]
+;B[rh]
+;W[rm]
+;B[qm]
+;W[ql]
+;B[rk]
+;W[lo]
+;B[ko]
+;W[kp]C[Younggil [8p\]: White can play something like this
+Kashomon [1k\]: hm
+Younggil [8p\]: and it'll be complicated
+]
+;B[mp]
+;W[rn]
+;B[qk]
+;W[pn]C[Younggil [8p\]: still hard for Black to capture them all
+Kashomon [1k\]: yeah
+])))
+(;B[qj]
+;W[pk]
+;B[pi]
+;W[nj]
+;B[oi]C[Younggil [8p\]: so pushing underneath is more common
+Younggil [8p\]: no other good alternatives for White
+]))
+(;W[qo]C[Younggil [8p\]: White could also play here now
+Younggil [8p\]: where'd you play next?
+Kashomon [1k\]: hm
+Kashomon [1k\]: I would try R7 or 68
+]
+;B[qm]
+(;W[rp]C[Younggil [8p\]: very good
+])
+(;W[pp]
+;B[pq]
+(;W[rp]C[Younggil [8p\]: this is a better idea for Black
+]
+;B[qq])
+(;W[pm]
+;B[ql]
+;W[op]
+;B[np]
+;W[no]
+;B[mp]C[Kashomon [1k\]: ah
+]
+;W[nm]C[Younggil [8p\]: white will play something like this to reduce
+]))
+(;W[jn]C[Younggil [8p\]: or just jump out
+Younggil [8p\]: there might be some aji in the corner later
+])))
+(;W[rp]
+;B[qo]
+;W[qq]
+(;B[pq]C[Younggil [8p\]: that's not a good idea because
+])
+(;B[ro]
+;W[pq]
+;B[op]C[Kashomon [1k\]: black's happy to make the moyo bigger
+Younggil [8p\]: Black's right side is too big and deep
+Younggil [8p\]: and that helps Black
+Younggil [8p\]: yes right
+]))
+(;W[qo]
+(;B[po]
+;W[qn]
+;B[rp]
+;W[pn]
+;B[oo]
+;W[qk]C[Younggil [8p\]: White'd better think about this attachment
+Kashomon [1k\]: I see
+])
+(;B[pp]
+;W[rp]
+;B[rq]
+;W[ql]C[Younggil [8p\]: something like this
+Younggil [8p\]: because there's more room on the side
+Kashomon [1k\]: Thanks, that's helpful
+Younggil [8p\]: no worries
+])))
+(;B[jp]
+;W[co]
+;B[pl]
+;W[hp]C[Kashomon [1k\]: Thanks for the feedback! I look forward to cleaning this up into a GPub Book =)
+]
+;B[jn]
+;W[hn]C[Younggil [8p\]: good
+Younggil [8p\]: I hope that doesn't took too much of your time :)
+Younggil [8p\]: have a good night and see you next week?
+Kashomon [1k\]: sounds good. I hope you're getting excited about GPub =)
+Kashomon [1k\]: It's getting close
+Kashomon [1k\]: and starting to make nice books
+Younggil [8p\]: great!
+Younggil [8p\]: right, sounds wonderful
+])
+(;B[do]C[Younggil [8p\]: that's still better to play big places
+]))
+(;B[do]
+(;W[co]
+;B[dp]
+;W[cp]
+;B[eq]
+;W[cn]
+;B[jp]C[Younggil [8p\]: after that, you can still play, for example
+])
+(;W[fp]
+;B[cq]
+;W[cr]
+;B[cp]
+;W[er]
+;B[cl]C[Younggil [8p\]: if White chooses this one, Black can just settle down
+]))
+(;B[jp]LB[pi:B][qi:A]C[Kashomon [1k\]: this was also like a game you commented recently, no?
+Younggil [8p\]: yea
+Kashomon [1k\]: was that the iyama game?
+Kashomon [1k\]: yea
+Younggil [8p\]: A was at B I think 
+Younggil [8p\]: anyway, 
+]
+(;W[nd]C[Younggil [8p\]: but extend first
+Kashomon [1k\]: I see
+Younggil [8p\]: because Black's right side is more valuable than White's top
+Younggil [8p\]: because Black's right side is more likely territory
+]
+(;B[ne]
+;W[me]C[Younggil [8p\]: extend now
+]
+(;B[nf]C[Younggil [8p\]: at N13
+Younggil [8p\]: O14
+]
+;W[mf]C[Younggil [8p\]: i see
+Younggil [8p\]: and hane
+]
+(;B[nh]
+;W[mg]C[Younggil [8p\]: Black can hane
+])
+(;B[mg]
+;W[ng]
+;B[pf]C[Younggil [8p\]: or like this
+]
+;W[og]
+;B[pg]
+;W[lg]
+;B[mh]
+;W[kf]
+;B[li]C[Younggil [8p\]: something like this
+Younggil [8p\]: or
+]))
+(;B[mf]C[Younggil [8p\]: that's also possible
+]
+;W[nf]
+;B[oe]
+(;W[lf]
+;B[mg]C[Kashomon [1k\]: like this?
+Younggil [8p\]: this is also possible
+])
+(;W[le]
+(;B[lf]
+;W[ke]
+;B[ng])
+(;B[mg]C[Younggil [8p\]: this is also ok
+Younggil [8p\]: White doesn't normally push up at O15
+]))))
+(;B[pf]))
+(;W[pj]
+;B[qj]
+;W[pk]
+;B[pi]
+;W[nj]
+;B[oi]
+;W[ml]C[Younggil [8p\]: so White might play like this
+Younggil [8p\]: or
+])
+(;W[of]
+;B[pg]
+;W[nd])))
+(;W[ck]
+;B[qj]
+;W[nc]
+;B[pf]
+(;W[pb]
+;B[qc]
+;W[kc])
+(;W[jq]
+;B[lq]
+;W[jd]
+;B[cf]
+;W[fd]
+;B[bd]C[Younggil [8p\]: maybe now
+]
+(;W[rp]C[Younggil [8p\]: white can attach here
+]
+(;B[qo]
+;W[qq]
+;B[ro]C[Younggil [8p\]: in this case, White can make a ko in the corner later
+Younggil [8p\]: or
+])
+(;B[qq]
+;W[qo]
+;B[qm]
+;W[oo]C[Younggil [8p\]: White can try to escape like this
+]))
+(;W[ql]
+;B[ok]C[Younggil [8p\]: now, it's a bit not too easy to invade
+Kashomon [1k\]: Is the difference between this position that the moyo value is smaller?
+Younggil [8p\]: yes
+]))))
